@@ -1,0 +1,424 @@
+<style>
+.lx-highlight { position: relative; border-radius:3px; padding:1px 2px;}
+.lx-highlight .lx-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 4px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  max-width: 240px;
+  white-space: normal;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.lx-highlight:hover .lx-tooltip { visibility: visible; opacity:1; }
+.lx-animated-wrapper { max-width: 100%; font-family: Arial, sans-serif; }
+.lx-controls {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 8px;
+  padding: 12px; margin-bottom: 16px;
+}
+.lx-button-row {
+  display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;
+}
+.lx-control-btn {
+  background: #4285f4; color: white; border: none; border-radius: 4px;
+  padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 500;
+  transition: background-color 0.2s;
+}
+.lx-control-btn:hover { background: #3367d6; }
+.lx-progress-container {
+  margin-bottom: 8px;
+}
+.lx-progress-slider {
+  width: 100%; margin: 0; appearance: none; height: 6px;
+  background: #ddd; border-radius: 3px; outline: none;
+}
+.lx-progress-slider::-webkit-slider-thumb {
+  appearance: none; width: 18px; height: 18px; background: #4285f4;
+  border-radius: 50%; cursor: pointer;
+}
+.lx-progress-slider::-moz-range-thumb {
+  width: 18px; height: 18px; background: #4285f4; border-radius: 50%;
+  cursor: pointer; border: none;
+}
+.lx-status-text {
+  text-align: center; font-size: 12px; color: #666; margin-top: 4px;
+}
+.lx-text-window {
+  font-family: monospace; white-space: pre-wrap; border: 1px solid #90caf9;
+  padding: 12px; max-height: 260px; overflow-y: auto; margin-bottom: 12px;
+  line-height: 1.6;
+}
+.lx-attributes-panel {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 6px;
+  padding: 8px 10px; margin-top: 8px; font-size: 13px;
+}
+.lx-current-highlight {
+  border-bottom: 4px solid #ff4444;
+  font-weight: bold;
+  animation: lx-pulse 1s ease-in-out;
+}
+@keyframes lx-pulse {
+  0% { text-decoration-color: #ff4444; }
+  50% { text-decoration-color: #ff0000; }
+  100% { text-decoration-color: #ff4444; }
+}
+.lx-legend {
+  font-size: 12px; margin-bottom: 8px;
+  padding-bottom: 8px; border-bottom: 1px solid #e0e0e0;
+}
+.lx-label {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 4px;
+  color: #000;
+}
+.lx-attr-key {
+  font-weight: 600;
+  color: #1565c0;
+  letter-spacing: 0.3px;
+}
+.lx-attr-value {
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 0.2px;
+}
+
+/* Add optimizations with larger fonts and better readability for GIFs */
+.lx-gif-optimized .lx-text-window { font-size: 16px; line-height: 1.8; }
+.lx-gif-optimized .lx-attributes-panel { font-size: 15px; }
+.lx-gif-optimized .lx-current-highlight { text-decoration-thickness: 4px; }
+</style>
+    <div class="lx-animated-wrapper lx-gif-optimized">
+      <div class="lx-attributes-panel">
+        <div class="lx-legend">Highlights Legend: <span class="lx-label" style="background-color:#D2E3FC;">answer</span> <span class="lx-label" style="background-color:#C8E6C9;">character</span> <span class="lx-label" style="background-color:#FEF0C3;">conflict</span> <span class="lx-label" style="background-color:#F9DEDC;">consequence</span> <span class="lx-label" style="background-color:#FFDDBE;">emotion</span> <span class="lx-label" style="background-color:#EADDFF;">event</span> <span class="lx-label" style="background-color:#C4E9E4;">fact</span> <span class="lx-label" style="background-color:#FCE4EC;">location</span> <span class="lx-label" style="background-color:#E8EAED;">question</span> <span class="lx-label" style="background-color:#DDE8E8;">relationship</span> <span class="lx-label" style="background-color:#D2E3FC;">statement</span></div>
+        <div id="attributesContainer"></div>
+      </div>
+      <div class="lx-text-window" id="textWindow">
+        *** START OF THE PROJECT GUTENBERG EBOOK 1513 ***
+
+
+
+
+<span class="lx-highlight lx-current-highlight" data-idx="0" style="background-color:#C8E6C9;">THE TRAGEDY OF ROMEO AND JULIET</span>
+
+by William Shakespeare
+
+
+
+
+<span class="lx-highlight" data-idx="1" style="background-color:#C8E6C9;">Contents</span>
+
+THE PROLOGUE.
+
+ACT I
+Scene I. A public place.
+Scene II. A Street.
+Scene III. Room in Capulet’s House.
+Scene IV. A Street.
+Scene V. A Hall in Capulet’s House.
+
+ACT II
+CHORUS.
+Scene I. An open place adjoining Capulet’s Garden.
+Scene II. Capulet’s Garden.
+Scene III. <span class="lx-highlight" data-idx="2" style="background-color:#C8E6C9;">Friar Lawrence’s Cell</span>.
+<span class="lx-highlight" data-idx="3" style="background-color:#C8E6C9;">Scene IV</span>. A Street.
+<span class="lx-highlight" data-idx="4" style="background-color:#C8E6C9;">Scene V</span>. Capulet’s Garden.
+<span class="lx-highlight" data-idx="5" style="background-color:#C8E6C9;">Scene VI</span>. Friar Lawrence’s Cell.
+
+<span class="lx-highlight" data-idx="6" style="background-color:#C8E6C9;">ACT III</span>
+<span class="lx-highlight" data-idx="7" style="background-color:#C8E6C9;">Scene I</span>. A public Place.
+<span class="lx-highlight" data-idx="8" style="background-color:#C8E6C9;">Scene II</span>. A Room in Capulet’s House.
+<span class="lx-highlight" data-idx="9" style="background-color:#C8E6C9;">Scene III</span>. Friar Lawrence’s cell.
+<span class="lx-highlight" data-idx="10" style="background-color:#C8E6C9;">Scene IV</span>. A Room in Capulet’s House.
+<span class="lx-highlight" data-idx="11" style="background-color:#C8E6C9;">Scene V</span>. An open Gallery to Juliet’s Chamber, overlooking the Garden.
+
+<span class="lx-highlight" data-idx="12" style="background-color:#C8E6C9;">ACT IV</span>
+<span class="lx-highlight" data-idx="13" style="background-color:#C8E6C9;">Scene I</span>. Friar Lawrence’s Cell.
+<span class="lx-highlight" data-idx="14" style="background-color:#C8E6C9;">Scene II</span>. Hall in Capulet’s House.
+<span class="lx-highlight" data-idx="15" style="background-color:#C8E6C9;">Scene III</span>. Juliet’s Chamber.
+Scene IV. Hall in Capulet’s House.
+Scene V. Juliet’s Chamber; Juliet on the bed.
+
+ACT V
+Scene I. Mantua. A Street.
+Scene II. Friar Lawrence’s Cell.
+Scene III. A churchyard; in it a Monument belonging to the Capulets.
+
+
+
+
+ Dramatis Personæ
+
+<span class="lx-highlight" data-idx="16" style="background-color:#C8E6C9;">ESCALUS</span>, Prince of Verona.
+<span class="lx-highlight" data-idx="17" style="background-color:#C8E6C9;">MERCUTIO</span>, kinsman to the Prince, and friend to Romeo.
+<span class="lx-highlight" data-idx="18" style="background-color:#C8E6C9;">PARIS</span>, a young Nobleman, kinsman to the Prince.
+Page to Paris.
+
+<span class="lx-highlight" data-idx="19" style="background-color:#C8E6C9;">MONTAGUE</span>, head of a Veronese family at feud with the Capulets.
+<span class="lx-highlight" data-idx="20" style="background-color:#C8E6C9;">LADY MONTAGUE</span>, wife to Montague.
+<span class="lx-highlight" data-idx="21" style="background-color:#C8E6C9;">ROMEO</span>, son to Montague.
+<span class="lx-highlight" data-idx="22" style="background-color:#C8E6C9;">BENVOLIO</span>, nephew to Montague, and friend to Romeo.
+<span class="lx-highlight" data-idx="23" style="background-color:#C8E6C9;">ABRAM</span>, servant to Montague.
+<span class="lx-highlight" data-idx="24" style="background-color:#C8E6C9;">BALTHASAR</span>, servant to Romeo.
+
+<span class="lx-highlight" data-idx="25" style="background-color:#C8E6C9;">CAPULET</span>, head of a Veronese family at feud with the Montagues.
+<span class="lx-highlight" data-idx="26" style="background-color:#C8E6C9;">LADY CAPULET</span>, wife to Capulet.
+<span class="lx-highlight" data-idx="27" style="background-color:#C8E6C9;">JULIET</span>, daughter to Capulet.
+<span class="lx-highlight" data-idx="28" style="background-color:#C8E6C9;">TYBALT</span>, nephew to Lady Capulet.
+<span class="lx-highlight" data-idx="29" style="background-color:#C8E6C9;">CAPULET’S COUSIN</span>, an old man.
+<span class="lx-highlight" data-idx="30" style="background-color:#C8E6C9;">NURSE</span> to Juliet.
+<span class="lx-highlight" data-idx="31" style="background-color:#C8E6C9;">PETER</span>, servant to Juliet’s Nurse.
+<span class="lx-highlight" data-idx="32" style="background-color:#C8E6C9;">SAMPSON</span>, servant to Capulet.
+<span class="lx-highlight" data-idx="33" style="background-color:#C8E6C9;">GREGORY</span>, servant to Capulet.
+Servants.
+
+FRIAR LAWRENCE, a Franciscan.
+FRIAR JOHN, of the same Order.
+An Apothecary.
+CHORUS.
+Three Musicians.
+An Officer.
+Citizens of Verona; several Men and Women, relations to both houses;
+Maskers, Guards, Watchmen and Attendants.
+
+SCENE. During the greater part of the Play in Verona; once, in the
+Fifth Act, at Mantua.
+
+
+
+
+THE PROLOGUE
+
+
+ Enter <span class="lx-highlight" data-idx="34" style="background-color:#C8E6C9;">Chorus</span>.
+
+CHORUS.
+<span class="lx-highlight" data-idx="35" style="background-color:#DDE8E8;">Two households, both alike in dignity</span>,
+In <span class="lx-highlight" data-idx="36" style="background-color:#FCE4EC;">fair Verona</span>, where we lay our scene,
+From <span class="lx-highlight" data-idx="37" style="background-color:#FEF0C3;">ancient grudge break to new mutiny</span>,
+Where <span class="lx-highlight" data-idx="38" style="background-color:#F9DEDC;">civil blood makes civil hands unclean</span>.
+From forth the fatal loins of these two foes
+<span class="lx-highlight" data-idx="39" style="background-color:#DDE8E8;">A pair of star-cross’d lovers</span> <span class="lx-highlight" data-idx="40" style="background-color:#EADDFF;">take their life</span>;
+Whose misadventur’d piteous overthrows
+Doth with their death bury their <span class="lx-highlight" data-idx="41" style="background-color:#DDE8E8;">parents’ strife</span>.
+The fearful passage of their death-mark’d love,
+And the continuance of their parents’ rage,
+Which, but their <span class="lx-highlight" data-idx="42" style="background-color:#DDE8E8;">children’s end</span>, nought could remove,
+Is now the two hours’ traffic of our stage;
+The which, if you with patient ears attend,
+What here shall miss, our toil shall strive to mend.
+
+ [_Exit._]
+
+
+
+
+ACT I
+
+SCENE I. A public place.
+
+
+ Enter <span class="lx-highlight" data-idx="43" style="background-color:#C8E6C9;">Sampson</span> and Gregory armed with swords and bucklers.
+
+SAMPSON.
+Gregory, on my word, <span class="lx-highlight" data-idx="44" style="background-color:#FFDDBE;">we’ll not carry coals</span>.
+
+<span class="lx-highlight" data-idx="45" style="background-color:#C8E6C9;">GREGORY</span>.
+No, for then we should be colliers.
+
+SAMPSON.
+I mean, if we be in choler, we’ll draw.
+
+GREGORY.
+Ay, while you live, draw your neck out o’ the collar.
+
+SAMPSON.
+I strike quickly, being moved.
+
+GREGORY.
+But thou art not quickly moved to strike.
+
+<span class="lx-highlight" data-idx="46" style="background-color:#C8E6C9;">SAMPSON</span>.
+A dog of the house of Montague moves me.
+
+<span class="lx-highlight" data-idx="47" style="background-color:#C8E6C9;">GREGORY</span>.
+<span class="lx-highlight" data-idx="48" style="background-color:#FFDDBE;">To move is to stir</span>; and to be valiant is to stand: therefore, if thou
+art moved, thou runn’st away.
+
+<span class="lx-highlight" data-idx="49" style="background-color:#C8E6C9;">SAMPSON</span>.
+A dog of that house shall move me to stand.
+I will <span class="lx-highlight" data-idx="50" style="background-color:#DDE8E8;">take the wall</span> of any man or maid of Montague’s.
+
+<span class="lx-highlight" data-idx="51" style="background-color:#C8E6C9;">GREGORY</span>.
+That shows thee a <span class="lx-highlight" data-idx="52" style="background-color:#DDE8E8;">weak slave</span>, for the weakest goes to the wall.
+
+SAMPSON.
+True, and therefore women, being the weaker vessels, <span class="lx-highlight" data-idx="53" style="background-color:#DDE8E8;">are ever thrust to
+the wall</span>: therefore I will push Montague’s men from the wall, and
+thrust his maids to the wall.
+
+<span class="lx-highlight" data-idx="54" style="background-color:#C8E6C9;">GREGORY</span>.
+The quarrel is between our masters and us their men.
+
+<span class="lx-highlight" data-idx="55" style="background-color:#C8E6C9;">SAMPSON</span>.
+<span class="lx-highlight" data-idx="56" style="background-color:#C4E9E4;">’Tis all one</span>, I will show myself a tyrant: when I have fought with the
+men I will be civil with the maids, I will cut off their heads.
+
+GREGORY.
+The heads of the maids?
+
+<span class="lx-highlight" data-idx="57" style="background-color:#C8E6C9;">SAMPSON</span>.
+<span class="lx-highlight" data-idx="58" style="background-color:#FFDDBE;">Ay, the heads of the maids</span>, or their maidenheads; take it in what sense
+thou wilt.
+
+<span class="lx-highlight" data-idx="59" style="background-color:#C8E6C9;">GREGORY</span>.
+<span class="lx-highlight" data-idx="60" style="background-color:#FFDDBE;">They must take it in sense that feel it</span>.
+
+<span class="lx-highlight" data-idx="61" style="background-color:#C8E6C9;">SAMPSON</span>.
+<span class="lx-highlight" data-idx="62" style="background-color:#FFDDBE;">Me they shall feel</span> while I am able to stand: and ’tis known I am a
+pretty piece of flesh.
+
+<span class="lx-highlight" data-idx="63" style="background-color:#C8E6C9;">GREGORY</span>.
+<span class="lx-highlight" data-idx="64" style="background-color:#FFDDBE;">’Tis well thou art not fish</span>; if thou hadst, thou hadst been poor John.
+Draw thy tool; here comes of the house of Montagues.
+
+ Enter Abram and Balthasar.
+
+<span class="lx-highlight" data-idx="65" style="background-color:#C8E6C9;">SAMPSON</span>.
+My naked weapon is out: quarrel, I will back thee.
+
+GREGORY.
+How? Turn thy back and run?
+
+SAMPSON.
+Fear me not.
+
+GREGORY.
+No, marry; I fear thee!
+
+SAMPSON.
+<span class="lx-highlight" data-idx="66" style="background-color:#FFDDBE;">Let us take the law of our sides</span>; let them begin.
+
+<span class="lx-highlight" data-idx="67" style="background-color:#C8E6C9;">GREGORY</span>.
+<span class="lx-highlight" data-idx="68" style="background-color:#FFDDBE;">I will frown as I pass by</span>, and let them take it as they list.
+
+SAMPSON.
+Nay, as they dare. <span class="lx-highlight" data-idx="69" style="background-color:#C8E6C9;">I</span> will <span class="lx-highlight" data-idx="70" style="background-color:#FFDDBE;">bite my thumb</span> at them, which is disgrace to
+them if they bear it.
+
+<span class="lx-highlight" data-idx="71" style="background-color:#C8E6C9;">ABRAM.</span>
+<span class="lx-highlight" data-idx="72" style="background-color:#FFDDBE;">Do you bite your thumb at us, sir?</span>
+
+<span class="lx-highlight" data-idx="73" style="background-color:#C8E6C9;">SAMPSON.</span>
+<span class="lx-highlight" data-idx="74" style="background-color:#FFDDBE;">I do bite my thumb, sir.</span>
+
+ABRAM.
+Do you bite your thumb at us, sir?
+
+<span class="lx-highlight" data-idx="75" style="background-color:#C8E6C9;">SAMPSON.</span>
+<span class="lx-highlight" data-idx="76" style="background-color:#E8EAED;">Is the law of our side if I say ay?</span>
+
+<span class="lx-highlight" data-idx="77" style="background-color:#C8E6C9;">GREGORY.</span>
+<span class="lx-highlight" data-idx="78" style="background-color:#D2E3FC;">No.</span>
+
+<span class="lx-highlight" data-idx="79" style="background-color:#C8E6C9;">SAMPSON.</span>
+<span class="lx-highlight" data-idx="80" style="background-color:#FFDDBE;">No sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.</span>
+
+<span class="lx-highlight" data-idx="81" style="background-color:#C8E6C9;">GREGORY.</span>
+<span class="lx-highlight" data-idx="82" style="background-color:#E8EAED;">Do you quarrel, sir?</span>
+
+<span class="lx-highlight" data-idx="83" style="background-color:#C8E6C9;">ABRAM.</span>
+<span class="lx-highlight" data-idx="84" style="background-color:#D2E3FC;">Quarrel</span>
+      </div>
+      <div class="lx-controls">
+        <div class="lx-button-row">
+          <button class="lx-control-btn" onclick="playPause()">▶️ Play</button>
+          <button class="lx-control-btn" onclick="prevExtraction()">⏮ Previous</button>
+          <button class="lx-control-btn" onclick="nextExtraction()">⏭ Next</button>
+        </div>
+        <div class="lx-progress-container">
+          <input type="range" id="progressSlider" class="lx-progress-slider"
+                 min="0" max="84" value="0"
+                 onchange="jumpToExtraction(this.value)">
+        </div>
+        <div class="lx-status-text">
+          Entity <span id="entityInfo">1/85</span> |
+          Pos <span id="posInfo">[54-85]</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function() {
+        const extractions = [{"index": 0, "class": "character", "text": "THE TRAGEDY OF ROMEO AND JULIET", "color": "#C8E6C9", "startPos": 54, "endPos": 85, "beforeText": "*** START OF THE PROJECT GUTENBERG EBOOK 1513 ***\n\n\n\n\n", "extractionText": "THE TRAGEDY OF ROMEO AND JULIET", "afterText": "\n\nby William Shakespeare\n\n\n\n\nContents\n\nTHE PROLOGUE.\n\nACT I\nScene I. A public place.\nScene II. A Street.\nScene III. Room in Capulet\u2019s House.\nScene IV.", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">play</span>, <span class=\"lx-attr-key\">author</span>: <span class=\"lx-attr-value\">William Shakespeare</span>}</div>"}, {"index": 1, "class": "character", "text": "Contents", "color": "#C8E6C9", "startPos": 114, "endPos": 122, "beforeText": "*** START OF THE PROJECT GUTENBERG EBOOK 1513 ***\n\n\n\n\nTHE TRAGEDY OF ROMEO AND JULIET\n\nby William Shakespeare\n\n\n\n\n", "extractionText": "Contents", "afterText": "\n\nTHE PROLOGUE.\n\nACT I\nScene I. A public place.\nScene II. A Street.\nScene III. Room in Capulet\u2019s House.\nScene IV. A Street.\nScene V. A Hall in Capulet", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">section heading</span>}</div>"}, {"index": 2, "class": "character", "text": "Friar Lawrence\u2019s Cell", "color": "#C8E6C9", "startPos": 388, "endPos": 409, "beforeText": "Street.\nScene V. A Hall in Capulet\u2019s House.\n\nACT II\nCHORUS.\nScene I. An open place adjoining Capulet\u2019s Garden.\nScene II. Capulet\u2019s Garden.\nScene III. ", "extractionText": "Friar Lawrence\u2019s Cell", "afterText": ".\nScene IV. A Street.\nScene V. Capulet\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\nACT III\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s Hous", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 3, "class": "character", "text": "Scene IV", "color": "#C8E6C9", "startPos": 411, "endPos": 419, "beforeText": " in Capulet\u2019s House.\n\nACT II\nCHORUS.\nScene I. An open place adjoining Capulet\u2019s Garden.\nScene II. Capulet\u2019s Garden.\nScene III. Friar Lawrence\u2019s Cell.\n", "extractionText": "Scene IV", "afterText": ". A Street.\nScene V. Capulet\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\nACT III\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s House.\nScene I", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 4, "class": "character", "text": "Scene V", "color": "#C8E6C9", "startPos": 431, "endPos": 438, "beforeText": "\n\nACT II\nCHORUS.\nScene I. An open place adjoining Capulet\u2019s Garden.\nScene II. Capulet\u2019s Garden.\nScene III. Friar Lawrence\u2019s Cell.\nScene IV. A Street.\n", "extractionText": "Scene V", "afterText": ". Capulet\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\nACT III\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s House.\nScene III. Friar Lawrence\u2019", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 5, "class": "character", "text": "Scene VI", "color": "#C8E6C9", "startPos": 458, "endPos": 466, "beforeText": "n open place adjoining Capulet\u2019s Garden.\nScene II. Capulet\u2019s Garden.\nScene III. Friar Lawrence\u2019s Cell.\nScene IV. A Street.\nScene V. Capulet\u2019s Garden.\n", "extractionText": "Scene VI", "afterText": ". Friar Lawrence\u2019s Cell.\n\nACT III\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s House.\nScene III. Friar Lawrence\u2019s cell.\nScene IV. A Room in ", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 6, "class": "character", "text": "ACT III", "color": "#C8E6C9", "startPos": 492, "endPos": 499, "beforeText": "arden.\nScene II. Capulet\u2019s Garden.\nScene III. Friar Lawrence\u2019s Cell.\nScene IV. A Street.\nScene V. Capulet\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\n", "extractionText": "ACT III", "afterText": "\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s House.\nScene III. Friar Lawrence\u2019s cell.\nScene IV. A Room in Capulet\u2019s House.\nScene V. An open", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 7, "class": "character", "text": "Scene I", "color": "#C8E6C9", "startPos": 500, "endPos": 507, "beforeText": "cene II. Capulet\u2019s Garden.\nScene III. Friar Lawrence\u2019s Cell.\nScene IV. A Street.\nScene V. Capulet\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\nACT III\n", "extractionText": "Scene I", "afterText": ". A public Place.\nScene II. A Room in Capulet\u2019s House.\nScene III. Friar Lawrence\u2019s cell.\nScene IV. A Room in Capulet\u2019s House.\nScene V. An open Gallery", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 8, "class": "character", "text": "Scene II", "color": "#C8E6C9", "startPos": 525, "endPos": 533, "beforeText": ".\nScene III. Friar Lawrence\u2019s Cell.\nScene IV. A Street.\nScene V. Capulet\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\nACT III\nScene I. A public Place.\n", "extractionText": "Scene II", "afterText": ". A Room in Capulet\u2019s House.\nScene III. Friar Lawrence\u2019s cell.\nScene IV. A Room in Capulet\u2019s House.\nScene V. An open Gallery to Juliet\u2019s Chamber, over", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 9, "class": "character", "text": "Scene III", "color": "#C8E6C9", "startPos": 562, "endPos": 571, "beforeText": "cene IV. A Street.\nScene V. Capulet\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\nACT III\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s House.\n", "extractionText": "Scene III", "afterText": ". Friar Lawrence\u2019s cell.\nScene IV. A Room in Capulet\u2019s House.\nScene V. An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.\n\nACT IV\nScene I. F", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 10, "class": "character", "text": "Scene IV", "color": "#C8E6C9", "startPos": 596, "endPos": 604, "beforeText": "t\u2019s Garden.\nScene VI. Friar Lawrence\u2019s Cell.\n\nACT III\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s House.\nScene III. Friar Lawrence\u2019s cell.\n", "extractionText": "Scene IV", "afterText": ". A Room in Capulet\u2019s House.\nScene V. An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.\n\nACT IV\nScene I. Friar Lawrence\u2019s Cell.\nScene II. H", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 11, "class": "character", "text": "Scene V", "color": "#C8E6C9", "startPos": 633, "endPos": 640, "beforeText": "s Cell.\n\nACT III\nScene I. A public Place.\nScene II. A Room in Capulet\u2019s House.\nScene III. Friar Lawrence\u2019s cell.\nScene IV. A Room in Capulet\u2019s House.\n", "extractionText": "Scene V", "afterText": ". An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.\n\nACT IV\nScene I. Friar Lawrence\u2019s Cell.\nScene II. Hall in Capulet\u2019s House.\nScene III. J", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 12, "class": "character", "text": "ACT IV", "color": "#C8E6C9", "startPos": 704, "endPos": 710, "beforeText": " House.\nScene III. Friar Lawrence\u2019s cell.\nScene IV. A Room in Capulet\u2019s House.\nScene V. An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.\n\n", "extractionText": "ACT IV", "afterText": "\nScene I. Friar Lawrence\u2019s Cell.\nScene II. Hall in Capulet\u2019s House.\nScene III. Juliet\u2019s Chamber.\nScene IV. Hall in Capulet\u2019s House.\nScene V. Juliet\u2019s ", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 13, "class": "character", "text": "Scene I", "color": "#C8E6C9", "startPos": 711, "endPos": 718, "beforeText": "\nScene III. Friar Lawrence\u2019s cell.\nScene IV. A Room in Capulet\u2019s House.\nScene V. An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.\n\nACT IV\n", "extractionText": "Scene I", "afterText": ". Friar Lawrence\u2019s Cell.\nScene II. Hall in Capulet\u2019s House.\nScene III. Juliet\u2019s Chamber.\nScene IV. Hall in Capulet\u2019s House.\nScene V. Juliet\u2019s Chamber;", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 14, "class": "character", "text": "Scene II", "color": "#C8E6C9", "startPos": 743, "endPos": 751, "beforeText": "l.\nScene IV. A Room in Capulet\u2019s House.\nScene V. An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.\n\nACT IV\nScene I. Friar Lawrence\u2019s Cell.\n", "extractionText": "Scene II", "afterText": ". Hall in Capulet\u2019s House.\nScene III. Juliet\u2019s Chamber.\nScene IV. Hall in Capulet\u2019s House.\nScene V. Juliet\u2019s Chamber; Juliet on the bed.\n\nACT V\nScene ", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 15, "class": "character", "text": "Scene III", "color": "#C8E6C9", "startPos": 778, "endPos": 787, "beforeText": "use.\nScene V. An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.\n\nACT IV\nScene I. Friar Lawrence\u2019s Cell.\nScene II. Hall in Capulet\u2019s House.\n", "extractionText": "Scene III", "afterText": ". Juliet\u2019s Chamber.\nScene IV. Hall in Capulet\u2019s House.\nScene V. Juliet\u2019s Chamber; Juliet on the bed.\n\nACT V\nScene I. Mantua. A Street.\nScene II. Friar", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 16, "class": "character", "text": "ESCALUS", "color": "#C8E6C9", "startPos": 1047, "endPos": 1054, "beforeText": "ene I. Mantua. A Street.\nScene II. Friar Lawrence\u2019s Cell.\nScene III. A churchyard; in it a Monument belonging to the Capulets.\n\n\n\n\n Dramatis Person\u00e6\n\n", "extractionText": "ESCALUS", "afterText": ", Prince of Verona.\nMERCUTIO, kinsman to the Prince, and friend to Romeo.\nPARIS, a young Nobleman, kinsman to the Prince.\nPage to Paris.\n\nMONTAGUE, he", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">title</span>: <span class=\"lx-attr-value\">Prince of Verona</span>}</div>"}, {"index": 17, "class": "character", "text": "MERCUTIO", "color": "#C8E6C9", "startPos": 1074, "endPos": 1082, "beforeText": "ene II. Friar Lawrence\u2019s Cell.\nScene III. A churchyard; in it a Monument belonging to the Capulets.\n\n\n\n\n Dramatis Person\u00e6\n\nESCALUS, Prince of Verona.\n", "extractionText": "MERCUTIO", "afterText": ", kinsman to the Prince, and friend to Romeo.\nPARIS, a young Nobleman, kinsman to the Prince.\nPage to Paris.\n\nMONTAGUE, head of a Veronese family at f", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_prince</span>: <span class=\"lx-attr-value\">kinsman</span>, <span class=\"lx-attr-key\">relationship_to_romeo</span>: <span class=\"lx-attr-value\">friend</span>}</div>"}, {"index": 18, "class": "character", "text": "PARIS", "color": "#C8E6C9", "startPos": 1128, "endPos": 1133, "beforeText": "; in it a Monument belonging to the Capulets.\n\n\n\n\n Dramatis Person\u00e6\n\nESCALUS, Prince of Verona.\nMERCUTIO, kinsman to the Prince, and friend to Romeo.\n", "extractionText": "PARIS", "afterText": ", a young Nobleman, kinsman to the Prince.\nPage to Paris.\n\nMONTAGUE, head of a Veronese family at feud with the Capulets.\nLADY MONTAGUE, wife to Monta", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">nobleman</span>: <span class=\"lx-attr-value\">True</span>, <span class=\"lx-attr-key\">relationship_to_prince</span>: <span class=\"lx-attr-value\">kinsman</span>}</div>"}, {"index": 19, "class": "character", "text": "MONTAGUE", "color": "#C8E6C9", "startPos": 1192, "endPos": 1200, "beforeText": "on\u00e6\n\nESCALUS, Prince of Verona.\nMERCUTIO, kinsman to the Prince, and friend to Romeo.\nPARIS, a young Nobleman, kinsman to the Prince.\nPage to Paris.\n\n", "extractionText": "MONTAGUE", "afterText": ", head of a Veronese family at feud with the Capulets.\nLADY MONTAGUE, wife to Montague.\nROMEO, son to Montague.\nBENVOLIO, nephew to Montague, and frie", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">family</span>: <span class=\"lx-attr-value\">Veronese</span>, <span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">head of family</span>, <span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">Montague</span>}</div>"}, {"index": 20, "class": "character", "text": "LADY MONTAGUE", "color": "#C8E6C9", "startPos": 1255, "endPos": 1268, "beforeText": ", and friend to Romeo.\nPARIS, a young Nobleman, kinsman to the Prince.\nPage to Paris.\n\nMONTAGUE, head of a Veronese family at feud with the Capulets.\n", "extractionText": "LADY MONTAGUE", "afterText": ", wife to Montague.\nROMEO, son to Montague.\nBENVOLIO, nephew to Montague, and friend to Romeo.\nABRAM, servant to Montague.\nBALTHASAR, servant to Romeo", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">wife to Montague</span>}</div>"}, {"index": 21, "class": "character", "text": "ROMEO", "color": "#C8E6C9", "startPos": 1288, "endPos": 1293, "beforeText": "oung Nobleman, kinsman to the Prince.\nPage to Paris.\n\nMONTAGUE, head of a Veronese family at feud with the Capulets.\nLADY MONTAGUE, wife to Montague.\n", "extractionText": "ROMEO", "afterText": ", son to Montague.\nBENVOLIO, nephew to Montague, and friend to Romeo.\nABRAM, servant to Montague.\nBALTHASAR, servant to Romeo.\n\nCAPULET, head of a Ver", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">family</span>: <span class=\"lx-attr-value\">Veronese</span>, <span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">son to Montague</span>}</div>"}, {"index": 22, "class": "character", "text": "BENVOLIO", "color": "#C8E6C9", "startPos": 1312, "endPos": 1320, "beforeText": "o the Prince.\nPage to Paris.\n\nMONTAGUE, head of a Veronese family at feud with the Capulets.\nLADY MONTAGUE, wife to Montague.\nROMEO, son to Montague.\n", "extractionText": "BENVOLIO", "afterText": ", nephew to Montague, and friend to Romeo.\nABRAM, servant to Montague.\nBALTHASAR, servant to Romeo.\n\nCAPULET, head of a Veronese family at feud with t", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">family</span>: <span class=\"lx-attr-value\">Veronese</span>, <span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">nephew to Montague, friend to Romeo</span>}</div>"}, {"index": 23, "class": "character", "text": "ABRAM", "color": "#C8E6C9", "startPos": 1363, "endPos": 1368, "beforeText": "eronese family at feud with the Capulets.\nLADY MONTAGUE, wife to Montague.\nROMEO, son to Montague.\nBENVOLIO, nephew to Montague, and friend to Romeo.\n", "extractionText": "ABRAM", "afterText": ", servant to Montague.\nBALTHASAR, servant to Romeo.\n\nCAPULET, head of a Veronese family at feud with the Montagues.\nLADY CAPULET, wife to Capulet.\nJUL", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">servant to Montague</span>}</div>"}, {"index": 24, "class": "character", "text": "BALTHASAR", "color": "#C8E6C9", "startPos": 1391, "endPos": 1400, "beforeText": "the Capulets.\nLADY MONTAGUE, wife to Montague.\nROMEO, son to Montague.\nBENVOLIO, nephew to Montague, and friend to Romeo.\nABRAM, servant to Montague.\n", "extractionText": "BALTHASAR", "afterText": ", servant to Romeo.\n\nCAPULET, head of a Veronese family at feud with the Montagues.\nLADY CAPULET, wife to Capulet.\nJULIET, daughter to Capulet.\nTYBALT", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">servant to Romeo</span>}</div>"}, {"index": 25, "class": "character", "text": "CAPULET", "color": "#C8E6C9", "startPos": 1421, "endPos": 1428, "beforeText": "ife to Montague.\nROMEO, son to Montague.\nBENVOLIO, nephew to Montague, and friend to Romeo.\nABRAM, servant to Montague.\nBALTHASAR, servant to Romeo.\n\n", "extractionText": "CAPULET", "afterText": ", head of a Veronese family at feud with the Montagues.\nLADY CAPULET, wife to Capulet.\nJULIET, daughter to Capulet.\nTYBALT, nephew to Lady Capulet.\nCA", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">family</span>: <span class=\"lx-attr-value\">Veronese</span>, <span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">head of family</span>, <span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">Montague foe</span>}</div>"}, {"index": 26, "class": "character", "text": "LADY CAPULET", "color": "#C8E6C9", "startPos": 1484, "endPos": 1496, "beforeText": "ntague, and friend to Romeo.\nABRAM, servant to Montague.\nBALTHASAR, servant to Romeo.\n\nCAPULET, head of a Veronese family at feud with the Montagues.\n", "extractionText": "LADY CAPULET", "afterText": ", wife to Capulet.\nJULIET, daughter to Capulet.\nTYBALT, nephew to Lady Capulet.\nCAPULET\u2019S COUSIN, an old man.\nNURSE to Juliet.\nPETER, servant to Julie", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">wife to Capulet</span>}</div>"}, {"index": 27, "class": "character", "text": "JULIET", "color": "#C8E6C9", "startPos": 1515, "endPos": 1521, "beforeText": "RAM, servant to Montague.\nBALTHASAR, servant to Romeo.\n\nCAPULET, head of a Veronese family at feud with the Montagues.\nLADY CAPULET, wife to Capulet.\n", "extractionText": "JULIET", "afterText": ", daughter to Capulet.\nTYBALT, nephew to Lady Capulet.\nCAPULET\u2019S COUSIN, an old man.\nNURSE to Juliet.\nPETER, servant to Juliet\u2019s Nurse.\nSAMPSON, serva", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">family</span>: <span class=\"lx-attr-value\">Veronese</span>, <span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">daughter to Capulet</span>}</div>"}, {"index": 28, "class": "character", "text": "TYBALT", "color": "#C8E6C9", "startPos": 1544, "endPos": 1550, "beforeText": "THASAR, servant to Romeo.\n\nCAPULET, head of a Veronese family at feud with the Montagues.\nLADY CAPULET, wife to Capulet.\nJULIET, daughter to Capulet.\n", "extractionText": "TYBALT", "afterText": ", nephew to Lady Capulet.\nCAPULET\u2019S COUSIN, an old man.\nNURSE to Juliet.\nPETER, servant to Juliet\u2019s Nurse.\nSAMPSON, servant to Capulet.\nGREGORY, serva", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_other_characters</span>: <span class=\"lx-attr-value\">nephew to Lady Capulet</span>}</div>"}, {"index": 29, "class": "character", "text": "CAPULET\u2019S COUSIN", "color": "#C8E6C9", "startPos": 1576, "endPos": 1592, "beforeText": "ET, head of a Veronese family at feud with the Montagues.\nLADY CAPULET, wife to Capulet.\nJULIET, daughter to Capulet.\nTYBALT, nephew to Lady Capulet.\n", "extractionText": "CAPULET\u2019S COUSIN", "afterText": ", an old man.\nNURSE to Juliet.\nPETER, servant to Juliet\u2019s Nurse.\nSAMPSON, servant to Capulet.\nGREGORY, servant to Capulet.\nServants.\n\nFRIAR LAWRENCE, ", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">age</span>: <span class=\"lx-attr-value\">old</span>}</div>"}, {"index": 30, "class": "character", "text": "NURSE", "color": "#C8E6C9", "startPos": 1606, "endPos": 1611, "beforeText": "at feud with the Montagues.\nLADY CAPULET, wife to Capulet.\nJULIET, daughter to Capulet.\nTYBALT, nephew to Lady Capulet.\nCAPULET\u2019S COUSIN, an old man.\n", "extractionText": "NURSE", "afterText": " to Juliet.\nPETER, servant to Juliet\u2019s Nurse.\nSAMPSON, servant to Capulet.\nGREGORY, servant to Capulet.\nServants.\n\nFRIAR LAWRENCE, a Franciscan.\nFRIAR", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship</span>: <span class=\"lx-attr-value\">Juliet&#x27;s Nurse</span>}</div>"}, {"index": 31, "class": "character", "text": "PETER", "color": "#C8E6C9", "startPos": 1623, "endPos": 1628, "beforeText": "Montagues.\nLADY CAPULET, wife to Capulet.\nJULIET, daughter to Capulet.\nTYBALT, nephew to Lady Capulet.\nCAPULET\u2019S COUSIN, an old man.\nNURSE to Juliet.\n", "extractionText": "PETER", "afterText": ", servant to Juliet\u2019s Nurse.\nSAMPSON, servant to Capulet.\nGREGORY, servant to Capulet.\nServants.\n\nFRIAR LAWRENCE, a Franciscan.\nFRIAR JOHN, of the sam", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship</span>: <span class=\"lx-attr-value\">Juliet\u2019s Nurse&#x27;s servant</span>}</div>"}, {"index": 32, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 1657, "endPos": 1664, "beforeText": "apulet.\nJULIET, daughter to Capulet.\nTYBALT, nephew to Lady Capulet.\nCAPULET\u2019S COUSIN, an old man.\nNURSE to Juliet.\nPETER, servant to Juliet\u2019s Nurse.\n", "extractionText": "SAMPSON", "afterText": ", servant to Capulet.\nGREGORY, servant to Capulet.\nServants.\n\nFRIAR LAWRENCE, a Franciscan.\nFRIAR JOHN, of the same Order.\nAn Apothecary.\nCHORUS.\nThre", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship</span>: <span class=\"lx-attr-value\">Capulet&#x27;s servant</span>}</div>"}, {"index": 33, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 1686, "endPos": 1693, "beforeText": "apulet.\nTYBALT, nephew to Lady Capulet.\nCAPULET\u2019S COUSIN, an old man.\nNURSE to Juliet.\nPETER, servant to Juliet\u2019s Nurse.\nSAMPSON, servant to Capulet.\n", "extractionText": "GREGORY", "afterText": ", servant to Capulet.\nServants.\n\nFRIAR LAWRENCE, a Franciscan.\nFRIAR JOHN, of the same Order.\nAn Apothecary.\nCHORUS.\nThree Musicians.\nAn Officer.\nCiti", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship</span>: <span class=\"lx-attr-value\">Capulet&#x27;s servant</span>}</div>"}, {"index": 34, "class": "character", "text": "CHORUS", "color": "#C8E6C9", "startPos": 2066, "endPos": 2072, "beforeText": " Guards, Watchmen and Attendants.\n\nSCENE. During the greater part of the Play in Verona; once, in the\nFifth Act, at Mantua.\n\n\n\n\nTHE PROLOGUE\n\n\n Enter ", "extractionText": "Chorus", "afterText": ".\n\nCHORUS.\nTwo households, both alike in dignity,\nIn fair Verona, where we lay our scene,\nFrom ancient grudge break to new mutiny,\nWhere civil blood m", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 35, "class": "relationship", "text": "Two households, both alike in dignity", "color": "#DDE8E8", "startPos": 2083, "endPos": 2120, "beforeText": " and Attendants.\n\nSCENE. During the greater part of the Play in Verona; once, in the\nFifth Act, at Mantua.\n\n\n\n\nTHE PROLOGUE\n\n\n Enter Chorus.\n\nCHORUS.\n", "extractionText": "Two households, both alike in dignity", "afterText": ",\nIn fair Verona, where we lay our scene,\nFrom ancient grudge break to new mutiny,\nWhere civil blood makes civil hands unclean.\nFrom forth the fatal l", "attributesHtml": "<div><strong>class:</strong> relationship</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">description</span>, <span class=\"lx-attr-key\">character_1</span>: <span class=\"lx-attr-value\">Household 1</span>, <span class=\"lx-attr-key\">character_2</span>: <span class=\"lx-attr-value\">Household 2</span>}</div>"}, {"index": 36, "class": "location", "text": "fair Verona", "color": "#FCE4EC", "startPos": 2125, "endPos": 2136, "beforeText": "r part of the Play in Verona; once, in the\nFifth Act, at Mantua.\n\n\n\n\nTHE PROLOGUE\n\n\n Enter Chorus.\n\nCHORUS.\nTwo households, both alike in dignity,\nIn ", "extractionText": "fair Verona", "afterText": ", where we lay our scene,\nFrom ancient grudge break to new mutiny,\nWhere civil blood makes civil hands unclean.\nFrom forth the fatal loins of these tw", "attributesHtml": "<div><strong>class:</strong> location</div><div><strong>attributes:</strong> {}</div>"}, {"index": 37, "class": "conflict", "text": "ancient grudge break to new mutiny", "color": "#FEF0C3", "startPos": 2167, "endPos": 2201, "beforeText": "\nFifth Act, at Mantua.\n\n\n\n\nTHE PROLOGUE\n\n\n Enter Chorus.\n\nCHORUS.\nTwo households, both alike in dignity,\nIn fair Verona, where we lay our scene,\nFrom ", "extractionText": "ancient grudge break to new mutiny", "afterText": ",\nWhere civil blood makes civil hands unclean.\nFrom forth the fatal loins of these two foes\nA pair of star-cross\u2019d lovers take their life;\nWhose misad", "attributesHtml": "<div><strong>class:</strong> conflict</div><div><strong>attributes:</strong> {}</div>"}, {"index": 38, "class": "consequence", "text": "civil blood makes civil hands unclean", "color": "#F9DEDC", "startPos": 2209, "endPos": 2246, "beforeText": " Enter Chorus.\n\nCHORUS.\nTwo households, both alike in dignity,\nIn fair Verona, where we lay our scene,\nFrom ancient grudge break to new mutiny,\nWhere ", "extractionText": "civil blood makes civil hands unclean", "afterText": ".\nFrom forth the fatal loins of these two foes\nA pair of star-cross\u2019d lovers take their life;\nWhose misadventur\u2019d piteous overthrows\nDoth with their d", "attributesHtml": "<div><strong>class:</strong> consequence</div><div><strong>attributes:</strong> {}</div>"}, {"index": 39, "class": "relationship", "text": "A pair of star-cross\u2019d lovers", "color": "#DDE8E8", "startPos": 2293, "endPos": 2322, "beforeText": " we lay our scene,\nFrom ancient grudge break to new mutiny,\nWhere civil blood makes civil hands unclean.\nFrom forth the fatal loins of these two foes\n", "extractionText": "A pair of star-cross\u2019d lovers", "afterText": " take their life;\nWhose misadventur\u2019d piteous overthrows\nDoth with their death bury their parents\u2019 strife.\nThe fearful passage of their death-mark\u2019d l", "attributesHtml": "<div><strong>class:</strong> relationship</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">description</span>, <span class=\"lx-attr-key\">character_1</span>: <span class=\"lx-attr-value\">Lover 1</span>, <span class=\"lx-attr-key\">character_2</span>: <span class=\"lx-attr-value\">Lover 2</span>}</div>"}, {"index": 40, "class": "event", "text": "take their life", "color": "#EADDFF", "startPos": 2323, "endPos": 2338, "beforeText": "t grudge break to new mutiny,\nWhere civil blood makes civil hands unclean.\nFrom forth the fatal loins of these two foes\nA pair of star-cross\u2019d lovers ", "extractionText": "take their life", "afterText": ";\nWhose misadventur\u2019d piteous overthrows\nDoth with their death bury their parents\u2019 strife.\nThe fearful passage of their death-mark\u2019d love,\nAnd the con", "attributesHtml": "<div><strong>class:</strong> event</div><div><strong>attributes:</strong> {}</div>"}, {"index": 41, "class": "relationship", "text": "parents\u2019 strife", "color": "#DDE8E8", "startPos": 2412, "endPos": 2427, "beforeText": " fatal loins of these two foes\nA pair of star-cross\u2019d lovers take their life;\nWhose misadventur\u2019d piteous overthrows\nDoth with their death bury their ", "extractionText": "parents\u2019 strife", "afterText": ".\nThe fearful passage of their death-mark\u2019d love,\nAnd the continuance of their parents\u2019 rage,\nWhich, but their children\u2019s end, nought could remove,\nIs", "attributesHtml": "<div><strong>class:</strong> relationship</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">conflict</span>, <span class=\"lx-attr-key\">character_1</span>: <span class=\"lx-attr-value\">parents</span>, <span class=\"lx-attr-key\">character_2</span>: <span class=\"lx-attr-value\">parents</span>}</div>"}, {"index": 42, "class": "relationship", "text": "children\u2019s end", "color": "#DDE8E8", "startPos": 2538, "endPos": 2552, "beforeText": " their death bury their parents\u2019 strife.\nThe fearful passage of their death-mark\u2019d love,\nAnd the continuance of their parents\u2019 rage,\nWhich, but their ", "extractionText": "children\u2019s end", "afterText": ", nought could remove,\nIs now the two hours\u2019 traffic of our stage;\nThe which, if you with patient ears attend,\nWhat here shall miss, our toil shall st", "attributesHtml": "<div><strong>class:</strong> relationship</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">cause and effect</span>, <span class=\"lx-attr-key\">character_1</span>: <span class=\"lx-attr-value\">children</span>, <span class=\"lx-attr-key\">character_2</span>: <span class=\"lx-attr-value\">parents\u2019 strife</span>}</div>"}, {"index": 43, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 2773, "endPos": 2780, "beforeText": "which, if you with patient ears attend,\nWhat here shall miss, our toil shall strive to mend.\n\n [_Exit._]\n\n\n\n\nACT I\n\nSCENE I. A public place.\n\n\n Enter ", "extractionText": "Sampson", "afterText": " and Gregory armed with swords and bucklers.\n\nSAMPSON.\nGregory, on my word, we\u2019ll not carry coals.\n\nGREGORY.\nNo, for then we should be colliers.\n\nSAMP", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">emotional_state</span>: <span class=\"lx-attr-value\">aggressive</span>}</div>"}, {"index": 44, "class": "emotion", "text": "we\u2019ll not carry coals", "color": "#FFDDBE", "startPos": 2856, "endPos": 2877, "beforeText": " to mend.\n\n [_Exit._]\n\n\n\n\nACT I\n\nSCENE I. A public place.\n\n\n Enter Sampson and Gregory armed with swords and bucklers.\n\nSAMPSON.\nGregory, on my word, ", "extractionText": "we\u2019ll not carry coals", "afterText": ".\n\nGREGORY.\nNo, for then we should be colliers.\n\nSAMPSON.\nI mean, if we be in choler, we\u2019ll draw.\n\nGREGORY.\nAy, while you live, draw your neck out o\u2019 ", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">refusal to be abused</span>, <span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">Sampson</span>}</div>"}, {"index": 45, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 2880, "endPos": 2887, "beforeText": "\n\nACT I\n\nSCENE I. A public place.\n\n\n Enter Sampson and Gregory armed with swords and bucklers.\n\nSAMPSON.\nGregory, on my word, we\u2019ll not carry coals.\n\n", "extractionText": "GREGORY", "afterText": ".\nNo, for then we should be colliers.\n\nSAMPSON.\nI mean, if we be in choler, we\u2019ll draw.\n\nGREGORY.\nAy, while you live, draw your neck out o\u2019 the collar", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">emotional_state</span>: <span class=\"lx-attr-value\">jovial</span>}</div>"}, {"index": 46, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 3133, "endPos": 3140, "beforeText": ".\nAy, while you live, draw your neck out o\u2019 the collar.\n\nSAMPSON.\nI strike quickly, being moved.\n\nGREGORY.\nBut thou art not quickly moved to strike.\n\n", "extractionText": "SAMPSON", "afterText": ".\nA dog of the house of Montague moves me.\n\nGREGORY.\nTo move is to stir; and to be valiant is to stand: therefore, if thou\nart moved, thou runn\u2019st awa", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 47, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 3184, "endPos": 3191, "beforeText": "lar.\n\nSAMPSON.\nI strike quickly, being moved.\n\nGREGORY.\nBut thou art not quickly moved to strike.\n\nSAMPSON.\nA dog of the house of Montague moves me.\n\n", "extractionText": "GREGORY", "afterText": ".\nTo move is to stir; and to be valiant is to stand: therefore, if thou\nart moved, thou runn\u2019st away.\n\nSAMPSON.\nA dog of that house shall move me to s", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 48, "class": "emotion", "text": "To move is to stir", "color": "#FFDDBE", "startPos": 3193, "endPos": 3211, "beforeText": "PSON.\nI strike quickly, being moved.\n\nGREGORY.\nBut thou art not quickly moved to strike.\n\nSAMPSON.\nA dog of the house of Montague moves me.\n\nGREGORY.\n", "extractionText": "To move is to stir", "afterText": "; and to be valiant is to stand: therefore, if thou\nart moved, thou runn\u2019st away.\n\nSAMPSON.\nA dog of that house shall move me to stand.\nI will take th", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">definition</span>}</div>"}, {"index": 49, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 3294, "endPos": 3301, "beforeText": "dog of the house of Montague moves me.\n\nGREGORY.\nTo move is to stir; and to be valiant is to stand: therefore, if thou\nart moved, thou runn\u2019st away.\n\n", "extractionText": "SAMPSON", "afterText": ".\nA dog of that house shall move me to stand.\nI will take the wall of any man or maid of Montague\u2019s.\n\nGREGORY.\nThat shows thee a weak slave, for the w", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 50, "class": "relationship", "text": "take the wall", "color": "#DDE8E8", "startPos": 3354, "endPos": 3367, "beforeText": "to stir; and to be valiant is to stand: therefore, if thou\nart moved, thou runn\u2019st away.\n\nSAMPSON.\nA dog of that house shall move me to stand.\nI will ", "extractionText": "take the wall", "afterText": " of any man or maid of Montague\u2019s.\n\nGREGORY.\nThat shows thee a weak slave, for the weakest goes to the wall.\n\nSAMPSON.\nTrue, and therefore women, bein", "attributesHtml": "<div><strong>class:</strong> relationship</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">challenge</span>}</div>"}, {"index": 51, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 3403, "endPos": 3410, "beforeText": ", if thou\nart moved, thou runn\u2019st away.\n\nSAMPSON.\nA dog of that house shall move me to stand.\nI will take the wall of any man or maid of Montague\u2019s.\n\n", "extractionText": "GREGORY", "afterText": ".\nThat shows thee a weak slave, for the weakest goes to the wall.\n\nSAMPSON.\nTrue, and therefore women, being the weaker vessels, are ever thrust to\nth", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 52, "class": "relationship", "text": "weak slave", "color": "#DDE8E8", "startPos": 3430, "endPos": 3440, "beforeText": "unn\u2019st away.\n\nSAMPSON.\nA dog of that house shall move me to stand.\nI will take the wall of any man or maid of Montague\u2019s.\n\nGREGORY.\nThat shows thee a ", "extractionText": "weak slave", "afterText": ", for the weakest goes to the wall.\n\nSAMPSON.\nTrue, and therefore women, being the weaker vessels, are ever thrust to\nthe wall: therefore I will push ", "attributesHtml": "<div><strong>class:</strong> relationship</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">insult</span>}</div>"}, {"index": 53, "class": "relationship", "text": "are ever thrust to the wall", "color": "#DDE8E8", "startPos": 3539, "endPos": 3566, "beforeText": " Montague\u2019s.\n\nGREGORY.\nThat shows thee a weak slave, for the weakest goes to the wall.\n\nSAMPSON.\nTrue, and therefore women, being the weaker vessels, ", "extractionText": "are ever thrust to\nthe wall", "afterText": ": therefore I will push Montague\u2019s men from the wall, and\nthrust his maids to the wall.\n\nGREGORY.\nThe quarrel is between our masters and us their men.", "attributesHtml": "<div><strong>class:</strong> relationship</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">type</span>: <span class=\"lx-attr-value\">gendered societal expectation</span>, <span class=\"lx-attr-key\">character_1</span>: <span class=\"lx-attr-value\">women</span>, <span class=\"lx-attr-key\">character_2</span>: <span class=\"lx-attr-value\">(implied men)</span>}</div>"}, {"index": 54, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 3655, "endPos": 3662, "beforeText": " women, being the weaker vessels, are ever thrust to\nthe wall: therefore I will push Montague\u2019s men from the wall, and\nthrust his maids to the wall.\n\n", "extractionText": "GREGORY", "afterText": ".\nThe quarrel is between our masters and us their men.\n\nSAMPSON.\n\u2019Tis all one, I will show myself a tyrant: when I have fought with the\nmen I will be ", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_speaker</span>: <span class=\"lx-attr-value\">associate</span>, <span class=\"lx-attr-key\">group</span>: <span class=\"lx-attr-value\">Montague&#x27;s men</span>}</div>"}, {"index": 55, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 3718, "endPos": 3725, "beforeText": "therefore I will push Montague\u2019s men from the wall, and\nthrust his maids to the wall.\n\nGREGORY.\nThe quarrel is between our masters and us their men.\n\n", "extractionText": "SAMPSON", "afterText": ".\n\u2019Tis all one, I will show myself a tyrant: when I have fought with the\nmen I will be civil with the maids, I will cut off their heads.\n\nGREGORY.\nThe", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">relationship_to_speaker</span>: <span class=\"lx-attr-value\">associate</span>, <span class=\"lx-attr-key\">group</span>: <span class=\"lx-attr-value\">Montague&#x27;s men</span>}</div>"}, {"index": 56, "class": "fact", "text": "'Tis all one", "color": "#C4E9E4", "startPos": 3727, "endPos": 3739, "beforeText": " I will push Montague\u2019s men from the wall, and\nthrust his maids to the wall.\n\nGREGORY.\nThe quarrel is between our masters and us their men.\n\nSAMPSON.\n", "extractionText": "\u2019Tis all one", "afterText": ", I will show myself a tyrant: when I have fought with the\nmen I will be civil with the maids, I will cut off their heads.\n\nGREGORY.\nThe heads of the ", "attributesHtml": "<div><strong>class:</strong> fact</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">perspective</span>: <span class=\"lx-attr-value\">Samson&#x27;s</span>}</div>"}, {"index": 57, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 3897, "endPos": 3904, "beforeText": " show myself a tyrant: when I have fought with the\nmen I will be civil with the maids, I will cut off their heads.\n\nGREGORY.\nThe heads of the maids?\n\n", "extractionText": "SAMPSON", "afterText": ".\nAy, the heads of the maids, or their maidenheads; take it in what sense\nthou wilt.\n\nGREGORY.\nThey must take it in sense that feel it.\n\nSAMPSON.\nMe t", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 58, "class": "emotion", "text": "Ay, the heads of the maids", "color": "#FFDDBE", "startPos": 3906, "endPos": 3932, "beforeText": "elf a tyrant: when I have fought with the\nmen I will be civil with the maids, I will cut off their heads.\n\nGREGORY.\nThe heads of the maids?\n\nSAMPSON.\n", "extractionText": "Ay, the heads of the maids", "afterText": ", or their maidenheads; take it in what sense\nthou wilt.\n\nGREGORY.\nThey must take it in sense that feel it.\n\nSAMPSON.\nMe they shall feel while I am ab", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {}</div>"}, {"index": 59, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 3990, "endPos": 3997, "beforeText": " cut off their heads.\n\nGREGORY.\nThe heads of the maids?\n\nSAMPSON.\nAy, the heads of the maids, or their maidenheads; take it in what sense\nthou wilt.\n\n", "extractionText": "GREGORY", "afterText": ".\nThey must take it in sense that feel it.\n\nSAMPSON.\nMe they shall feel while I am able to stand: and \u2019tis known I am a\npretty piece of flesh.\n\nGREGOR", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 60, "class": "emotion", "text": "They must take it in sense that feel it", "color": "#FFDDBE", "startPos": 3999, "endPos": 4038, "beforeText": "their heads.\n\nGREGORY.\nThe heads of the maids?\n\nSAMPSON.\nAy, the heads of the maids, or their maidenheads; take it in what sense\nthou wilt.\n\nGREGORY.\n", "extractionText": "They must take it in sense that feel it", "afterText": ".\n\nSAMPSON.\nMe they shall feel while I am able to stand: and \u2019tis known I am a\npretty piece of flesh.\n\nGREGORY.\n\u2019Tis well thou art not fish; if thou h", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {}</div>"}, {"index": 61, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 4041, "endPos": 4048, "beforeText": "ids?\n\nSAMPSON.\nAy, the heads of the maids, or their maidenheads; take it in what sense\nthou wilt.\n\nGREGORY.\nThey must take it in sense that feel it.\n\n", "extractionText": "SAMPSON", "afterText": ".\nMe they shall feel while I am able to stand: and \u2019tis known I am a\npretty piece of flesh.\n\nGREGORY.\n\u2019Tis well thou art not fish; if thou hadst, thou", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 62, "class": "emotion", "text": "Me they shall feel", "color": "#FFDDBE", "startPos": 4050, "endPos": 4068, "beforeText": "PSON.\nAy, the heads of the maids, or their maidenheads; take it in what sense\nthou wilt.\n\nGREGORY.\nThey must take it in sense that feel it.\n\nSAMPSON.\n", "extractionText": "Me they shall feel", "afterText": " while I am able to stand: and \u2019tis known I am a\npretty piece of flesh.\n\nGREGORY.\n\u2019Tis well thou art not fish; if thou hadst, thou hadst been poor Joh", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {}</div>"}, {"index": 63, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 4141, "endPos": 4148, "beforeText": "REGORY.\nThey must take it in sense that feel it.\n\nSAMPSON.\nMe they shall feel while I am able to stand: and \u2019tis known I am a\npretty piece of flesh.\n\n", "extractionText": "GREGORY", "afterText": ".\n\u2019Tis well thou art not fish; if thou hadst, thou hadst been poor John.\nDraw thy tool; here comes of the house of Montagues.\n\n Enter Abram and Baltha", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {}</div>"}, {"index": 64, "class": "emotion", "text": "'Tis well thou art not fish", "color": "#FFDDBE", "startPos": 4150, "endPos": 4177, "beforeText": "hey must take it in sense that feel it.\n\nSAMPSON.\nMe they shall feel while I am able to stand: and \u2019tis known I am a\npretty piece of flesh.\n\nGREGORY.\n", "extractionText": "\u2019Tis well thou art not fish", "afterText": "; if thou hadst, thou hadst been poor John.\nDraw thy tool; here comes of the house of Montagues.\n\n Enter Abram and Balthasar.\n\nSAMPSON.\nMy naked weapo", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {}</div>"}, {"index": 65, "class": "character", "text": "SAMPSON", "color": "#C8E6C9", "startPos": 4304, "endPos": 4311, "beforeText": " well thou art not fish; if thou hadst, thou hadst been poor John.\nDraw thy tool; here comes of the house of Montagues.\n\n Enter Abram and Balthasar.\n\n", "extractionText": "SAMPSON", "afterText": ".\nMy naked weapon is out: quarrel, I will back thee.\n\nGREGORY.\nHow? Turn thy back and run?\n\nSAMPSON.\nFear me not.\n\nGREGORY.\nNo, marry; I fear thee!\n\nS", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">state</span>: <span class=\"lx-attr-value\">aggressive</span>}</div>"}, {"index": 66, "class": "emotion", "text": "Let us take the law of our sides", "color": "#FFDDBE", "startPos": 4469, "endPos": 4501, "beforeText": "ed weapon is out: quarrel, I will back thee.\n\nGREGORY.\nHow? Turn thy back and run?\n\nSAMPSON.\nFear me not.\n\nGREGORY.\nNo, marry; I fear thee!\n\nSAMPSON.\n", "extractionText": "Let us take the law of our sides", "afterText": "; let them begin.\n\nGREGORY.\nI will frown as I pass by, and let them take it as they list.\n\nSAMPSON.\nNay, as they dare. I will bite my thumb at them, w", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">confident</span>, <span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">Sampson</span>}</div>"}, {"index": 67, "class": "character", "text": "GREGORY", "color": "#C8E6C9", "startPos": 4520, "endPos": 4527, "beforeText": "RY.\nHow? Turn thy back and run?\n\nSAMPSON.\nFear me not.\n\nGREGORY.\nNo, marry; I fear thee!\n\nSAMPSON.\nLet us take the law of our sides; let them begin.\n\n", "extractionText": "GREGORY", "afterText": ".\nI will frown as I pass by, and let them take it as they list.\n\nSAMPSON.\nNay, as they dare. I will bite my thumb at them, which is disgrace to\nthem i", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">state</span>: <span class=\"lx-attr-value\">timid</span>}</div>"}, {"index": 68, "class": "emotion", "text": "I will frown as I pass by", "color": "#FFDDBE", "startPos": 4529, "endPos": 4554, "beforeText": "Turn thy back and run?\n\nSAMPSON.\nFear me not.\n\nGREGORY.\nNo, marry; I fear thee!\n\nSAMPSON.\nLet us take the law of our sides; let them begin.\n\nGREGORY.\n", "extractionText": "I will frown as I pass by", "afterText": ", and let them take it as they list.\n\nSAMPSON.\nNay, as they dare. I will bite my thumb at them, which is disgrace to\nthem if they bear it.\n\nABRAM.\nDo ", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">mild defiance</span>, <span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">Gregory</span>}</div>"}, {"index": 69, "class": "character", "text": "I", "color": "#C8E6C9", "startPos": 4620, "endPos": 4621, "beforeText": "et us take the law of our sides; let them begin.\n\nGREGORY.\nI will frown as I pass by, and let them take it as they list.\n\nSAMPSON.\nNay, as they dare. ", "extractionText": "I", "afterText": " will bite my thumb at them, which is disgrace to\nthem if they bear it.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">disposition</span>: <span class=\"lx-attr-value\">confrontational</span>}</div>"}, {"index": 70, "class": "emotion", "text": "bite my thumb", "color": "#FFDDBE", "startPos": 4627, "endPos": 4640, "beforeText": "ake the law of our sides; let them begin.\n\nGREGORY.\nI will frown as I pass by, and let them take it as they list.\n\nSAMPSON.\nNay, as they dare. I will ", "extractionText": "bite my thumb", "afterText": " at them, which is disgrace to\nthem if they bear it.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">challenge</span>, <span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">I</span>}</div>"}, {"index": 71, "class": "character", "text": "ABRAM.", "color": "#C8E6C9", "startPos": 4694, "endPos": 4700, "beforeText": " I pass by, and let them take it as they list.\n\nSAMPSON.\nNay, as they dare. I will bite my thumb at them, which is disgrace to\nthem if they bear it.\n\n", "extractionText": "ABRAM.", "afterText": "\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if ", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">respondent</span>}</div>"}, {"index": 72, "class": "emotion", "text": "Do you bite your thumb at us, sir?", "color": "#FFDDBE", "startPos": 4701, "endPos": 4735, "beforeText": " by, and let them take it as they list.\n\nSAMPSON.\nNay, as they dare. I will bite my thumb at them, which is disgrace to\nthem if they bear it.\n\nABRAM.\n", "extractionText": "Do you bite your thumb at us, sir?", "afterText": "\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nN", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">defense</span>, <span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">ABRAM.</span>}</div>"}, {"index": 73, "class": "character", "text": "SAMPSON.", "color": "#C8E6C9", "startPos": 4737, "endPos": 4745, "beforeText": "st.\n\nSAMPSON.\nNay, as they dare. I will bite my thumb at them, which is disgrace to\nthem if they bear it.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\n", "extractionText": "SAMPSON.", "afterText": "\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I d", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">asserter</span>}</div>"}, {"index": 74, "class": "emotion", "text": "I do bite my thumb, sir.", "color": "#FFDDBE", "startPos": 4746, "endPos": 4770, "beforeText": "SON.\nNay, as they dare. I will bite my thumb at them, which is disgrace to\nthem if they bear it.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\n", "extractionText": "I do bite my thumb, sir.", "afterText": "\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at yo", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">confirmation</span>, <span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">SAMPSON.</span>}</div>"}, {"index": 75, "class": "character", "text": "SAMPSON.", "color": "#C8E6C9", "startPos": 4815, "endPos": 4823, "beforeText": "ce to\nthem if they bear it.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\n", "extractionText": "SAMPSON.", "afterText": "\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\nDo you qu", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">inquisitor</span>}</div>"}, {"index": 76, "class": "question", "text": "Is the law of our side if I say ay?", "color": "#E8EAED", "startPos": 4824, "endPos": 4859, "beforeText": "m if they bear it.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\n", "extractionText": "Is the law of our side if I say ay?", "afterText": "\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\nDo you quarrel, sir?\n\nABRAM.\nQuarrel", "attributesHtml": "<div><strong>class:</strong> question</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">SAMPSON</span>}</div>"}, {"index": 77, "class": "character", "text": "GREGORY.", "color": "#C8E6C9", "startPos": 4861, "endPos": 4869, "beforeText": "e your thumb at us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\n", "extractionText": "GREGORY.", "afterText": "\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\nDo you quarrel, sir?\n\nABRAM.\nQuarrel", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">advisor</span>}</div>"}, {"index": 78, "class": "answer", "text": "No.", "color": "#D2E3FC", "startPos": 4870, "endPos": 4873, "beforeText": "umb at us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\n", "extractionText": "No.", "afterText": "\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\nDo you quarrel, sir?\n\nABRAM.\nQuarrel", "attributesHtml": "<div><strong>class:</strong> answer</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">GREGORY</span>}</div>"}, {"index": 79, "class": "character", "text": "SAMPSON.", "color": "#C8E6C9", "startPos": 4875, "endPos": 4883, "beforeText": "t us, sir?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\n", "extractionText": "SAMPSON.", "afterText": "\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\nDo you quarrel, sir?\n\nABRAM.\nQuarrel", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">evasive</span>}</div>"}, {"index": 80, "class": "emotion", "text": "No sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.", "color": "#FFDDBE", "startPos": 4884, "endPos": 4953, "beforeText": "?\n\nSAMPSON.\nI do bite my thumb, sir.\n\nABRAM.\nDo you bite your thumb at us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\n", "extractionText": "No sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.", "afterText": "\n\nGREGORY.\nDo you quarrel, sir?\n\nABRAM.\nQuarrel", "attributesHtml": "<div><strong>class:</strong> emotion</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">feeling</span>: <span class=\"lx-attr-value\">equivocal</span>, <span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">SAMPSON</span>}</div>"}, {"index": 81, "class": "character", "text": "GREGORY.", "color": "#C8E6C9", "startPos": 4955, "endPos": 4963, "beforeText": "us, sir?\n\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\n", "extractionText": "GREGORY.", "afterText": "\nDo you quarrel, sir?\n\nABRAM.\nQuarrel", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">probesstander</span>}</div>"}, {"index": 82, "class": "question", "text": "Do you quarrel, sir?", "color": "#E8EAED", "startPos": 4964, "endPos": 4984, "beforeText": "\nSAMPSON.\nIs the law of our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\n", "extractionText": "Do you quarrel, sir?", "afterText": "\n\nABRAM.\nQuarrel", "attributesHtml": "<div><strong>class:</strong> question</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">GREGORY</span>}</div>"}, {"index": 83, "class": "character", "text": "ABRAM.", "color": "#C8E6C9", "startPos": 4986, "endPos": 4992, "beforeText": "f our side if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\nDo you quarrel, sir?\n\n", "extractionText": "ABRAM.", "afterText": "\nQuarrel", "attributesHtml": "<div><strong>class:</strong> character</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">role</span>: <span class=\"lx-attr-value\">declarer</span>}</div>"}, {"index": 84, "class": "statement", "text": "Quarrel", "color": "#D2E3FC", "startPos": 4993, "endPos": 5000, "beforeText": "ide if I say ay?\n\nGREGORY.\nNo.\n\nSAMPSON.\nNo sir, I do not bite my thumb at you, sir; but I bite my thumb, sir.\n\nGREGORY.\nDo you quarrel, sir?\n\nABRAM.\n", "extractionText": "Quarrel", "afterText": "", "attributesHtml": "<div><strong>class:</strong> statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">character</span>: <span class=\"lx-attr-value\">ABRAM.</span>}</div>"}];
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval = null;
+        let animationSpeed = 1.0;
+
+        function updateDisplay() {
+          const extraction = extractions[currentIndex];
+          if (!extraction) return;
+
+          document.getElementById('attributesContainer').innerHTML = extraction.attributesHtml;
+          document.getElementById('entityInfo').textContent = (currentIndex + 1) + '/' + extractions.length;
+          document.getElementById('posInfo').textContent = '[' + extraction.startPos + '-' + extraction.endPos + ']';
+          document.getElementById('progressSlider').value = currentIndex;
+
+          const playBtn = document.querySelector('.lx-control-btn');
+          if (playBtn) playBtn.textContent = isPlaying ? '⏸ Pause' : '▶️ Play';
+
+          const prevHighlight = document.querySelector('.lx-text-window .lx-current-highlight');
+          if (prevHighlight) prevHighlight.classList.remove('lx-current-highlight');
+          const currentSpan = document.querySelector('.lx-text-window span[data-idx="' + currentIndex + '"]');
+          if (currentSpan) {
+            currentSpan.classList.add('lx-current-highlight');
+            currentSpan.scrollIntoView({block: 'center', behavior: 'smooth'});
+          }
+        }
+
+        function nextExtraction() {
+          currentIndex = (currentIndex + 1) % extractions.length;
+          updateDisplay();
+        }
+
+        function prevExtraction() {
+          currentIndex = (currentIndex - 1 + extractions.length) % extractions.length;
+          updateDisplay();
+        }
+
+        function jumpToExtraction(index) {
+          currentIndex = parseInt(index);
+          updateDisplay();
+        }
+
+        function playPause() {
+          if (isPlaying) {
+            clearInterval(animationInterval);
+            isPlaying = false;
+          } else {
+            animationInterval = setInterval(nextExtraction, animationSpeed * 1000);
+            isPlaying = true;
+          }
+          updateDisplay();
+        }
+
+        window.playPause = playPause;
+        window.nextExtraction = nextExtraction;
+        window.prevExtraction = prevExtraction;
+        window.jumpToExtraction = jumpToExtraction;
+
+        updateDisplay();
+      })();
+    </script>
