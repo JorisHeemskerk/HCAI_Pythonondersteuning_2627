@@ -1,0 +1,624 @@
+user_id,age,country,region,education_level,device_type,subscription_type,signup_date,primary_use_case,daily_usage_minutes,sessions_per_week,monthly_spend_eur,trust_in_ai,satisfaction_score,nps_score,churned
+1001,37.0,Sweden,Northern Europe,Master,Mobile,Free,2024-08-18,Personal Assistant,2.5,0,0.26,,4.0,6,No
+1002,23.0,Netherlands,Western Europe,Bachelor,Tablet,Free,2025-08-29,Coding,21.2,3,0.06,9.0,2.0,39,No
+1003,42.0,France,Western Europe,PhD,Tablet,Free,2025-08-16,Writing,9.0,3,0.17,8.9,2.0,46,No
+1004,44.0,Spain,Southern Europe,Bachelor,Mobile,Premium,2025-05-02,Coding,23.8,2,9.9,6.1,,45,No
+1005,16.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-09-06,Coding,16.0,1,0.03,5.9,,-4,No
+1006,20.0,Belgium,Western Europe,PhD,Mobile,Free,2024-12-21,Coding,23.3,3,0.0,1.8,3.0,-28,No
+1007,35.0,Poland,Eastern Europe,Bachelor,Mobile,Premium,2025-04-14,Personal Assistant,17.9,2,10.37,,5.0,39,No
+1008,31.0,Spain,Southern Europe,Bachelor,Mobile,Premium,2024-04-12,Personal Assistant,32.1,6,10.45,3.9,3.0,12,No
+1009,34.0,Germany,Western Europe,Master,Mobile,Free,2024-07-04,Customer Support,9.8,1,0.41,6.7,4.0,94,Yes
+1010,25.0,Sweden,Northern Europe,High School,MOBILE,Free,2024-04-17,Writing,30.7,3,0.0,6.6,3.0,96,Yes
+1011,44.0,Germany,Western Europe,Bachelor,Desktop,Free,2025-08-04,Personal Assistant,28.7,9,0.0,7.6,3.0,100,Yes
+1012,43.0,Sweden,Northern Europe,Bachelor,Mobile,Premium,2025-01-15,Customer Support,17.2,2,10.37,8.8,4.0,-3,No
+1013,35.0,Germany,Western Europe,High School,Mobile,Free,2025-08-01,Writing,24.2,3,0.16,6.3,3.0,50,No
+1014,46.0,France,Western Europe,Master,Mobile,Free,2024-09-15,Customer Support,38.4,7,0.1,10.0,3.0,60,No
+1015,39.0,Belgium,Western Europe,Master,Mobile,Free,2024-09-07,Research,6.6,3,0.0,6.7,3.0,57,No
+1016,25.0,Germany,Western Europe,Bachelor,Mobile,Premium,2025-02-23,Coding,27.1,2,10.12,,3.0,18,No
+1017,38.0,Poland,Eastern Europe,Bachelor,Desktop,Free,2024-12-18,Writing,22.0,5,0.0,5.3,3.0,75,No
+1018,23.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2024-08-18,Research,12.1,2,10.18,5.6,3.0,30,No
+1019,44.0,Netherlands,Western Europe,Master,Desktop,Free,2024-07-15,Writing,12.0,2,0.41,7.4,2.0,34,Yes
+1020,33.0,Germany,Western Europe,PhD,Tablet,Premium,2024-11-13,Writing,56.4,6,10.48,5.2,4.0,-24,No
+1021,32.0,Italy,Southern Europe,PhD,mobile,Free,2024-02-16,Writing,8.8,1,0.21,,3.0,53,No
+1022,27.0,Italy,Southern Europe,Bachelor,Tablet,Free,2024-04-26,Translation,14.3,2,0.0,6.0,2.0,21,Yes
+1023,47.0,Ireland,Western Europe,Bachelor,Tablet,Free,2024-01-28,Coding,26.6,4,0.06,5.5,3.0,46,No
+1024,32.0,Germany,Western Europe,Bachelor,desktop,Premium,2024-04-06,Coding,8.5,1,10.63,7.8,4.0,38,No
+1025,29.0,Belgium,Western Europe,Master,Desktop,Premium Plus,2024-05-03,Coding,25.6,5,19.73,7.5,4.0,36,Yes
+1026,30.0,Netherlands,Western Europe,Bachelor,desktop,Free,2024-02-16,Personal Assistant,10.9,3,0.0,8.4,3.0,28,No
+1027,40.0,France,Western Europe,Master,Desktop,Free,2024-02-04,Research,17.5,1,0.42,5.7,3.0,58,No
+1028,38.0,Ireland,Western Europe,Master,Desktop,Premium Plus,2025-05-23,Translation,18.0,4,20.18,,4.0,23,No
+1029,39.0,Spain,Southern Europe,Bachelor,Mobile,Free,2024-04-23,Coding,22.0,1,0.74,3.8,1.0,-21,Yes
+1030,39.0,France,Western Europe,Bachelor,Tablet,Free,2024-12-10,Writing,17.2,4,0.0,3.8,4.0,50,No
+1031,,Belgium,Western Europe,Bachelor,Desktop,Free,2024-03-02,Research,7.7,1,0.0,4.1,2.0,2,No
+1032,30.0,Poland,Eastern Europe,High School,Desktop,Premium,2025-08-10,Coding,28.7,3,10.36,6.3,2.0,-16,No
+1033,,France,Western Europe,Bachelor,Mobile,Premium,2024-05-28,Personal Assistant,21.5,1,9.63,8.5,3.0,-6,No
+1034,25.0,Netherlands,Western Europe,Master,Mobile,Premium,2025-04-09,Personal Assistant,22.4,2,9.93,5.2,5.0,40,No
+1035,41.0,Germany,Western Europe,Bachelor,mobile,Premium Plus,2025-02-01,Research,56.5,7,19.97,5.4,5.0,27,No
+1036,46.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2025-04-21,Translation,29.5,3,0.31,5.9,4.0,-45,Yes
+1037,33.0,Netherlands,Western Europe,Master,Mobile,Free,2025-01-25,Research,11.3,4,0.18,7.3,4.0,17,Yes
+1038,25.0,Netherlands,Western Europe,Master,Mobile,Free,2024-11-11,Coding,16.6,1,0.14,5.4,2.0,71,No
+1039,25.0,Belgium,Western Europe,Bachelor,Mobile,Free,2025-04-23,Research,26.5,2,0.0,5.3,3.0,14,No
+1040,41.0,Spain,Southern Europe,Master,mobile,Free,2025-05-20,Writing,24.2,1,0.36,3.9,3.0,24,No
+1041,42.0,Germany,Western Europe,PhD,Mobile,Free,2024-08-23,Personal Assistant,243.0,21,1.21,5.9,,67,No
+1042,40.0,Belgium,Western Europe,Master,TABLET,Free,2025-08-07,Writing,10.5,2,0.21,8.4,3.0,58,No
+1043,27.0,Portugal,Southern Europe,Master,MOBILE,Premium,2025-09-04,Coding,47.6,4,10.02,6.5,3.0,66,No
+1044,37.0,Italy,Southern Europe,High School,MOBILE,Free,2025-03-23,Research,14.5,3,0.0,5.0,4.0,-67,No
+1045,35.0,France,Western Europe,PhD,Mobile,Free,2025-07-29,Writing,12.7,2,0.0,9.1,2.0,91,No
+1046,36.0,Germany,Western Europe,Bachelor,Mobile,Premium,2024-03-06,Writing,12.2,0,9.93,5.2,4.0,52,No
+1047,44.0,Poland,Eastern Europe,PhD,Mobile,Premium,2024-12-01,Customer Support,32.0,3,9.83,9.5,3.0,100,No
+1048,36.0,Germany,Western Europe,Master,Desktop,Premium,2025-02-07,Writing,18.3,3,9.99,8.8,3.0,3,No
+1049,41.0,Germany,Western Europe,High School,Tablet,Premium,2025-07-29,Research,28.3,3,10.52,6.4,4.0,-32,No
+1050,35.0,Poland,Eastern Europe,High School,Mobile,Premium,2024-03-15,Coding,41.1,4,10.36,3.6,3.0,30,No
+1051,37.0,France,Western Europe,Master,Desktop,Free,2025-05-14,Coding,30.2,5,0.0,10.0,3.0,20,No
+1052,41.0,Italy,Southern Europe,Master,Mobile,Free,2024-02-17,Writing,4.8,1,0.0,7.0,3.0,53,No
+1053,,France,Western Europe,High School,Mobile,Premium,2024-08-10,Personal Assistant,30.0,4,10.39,5.7,3.0,68,Yes
+1054,30.0,Spain,Southern Europe,Master,Mobile,Free,2025-03-05,Translation,1.0,1,0.0,8.0,3.0,27,No
+1055,29.0,Germany,Western Europe,Master,Mobile,Free,2024-06-29,Writing,15.1,3,0.0,7.6,3.0,22,No
+1056,27.0,Germany,Western Europe,Bachelor,Desktop,Free,2025-06-01,Translation,2.8,1,0.21,8.7,3.0,48,No
+1057,31.0,Germany,Western Europe,Bachelor,Desktop,Free,2025-07-30,Research,1.0,0,0.31,5.1,3.0,21,Yes
+1058,,Netherlands,Western Europe,High School,Desktop,Free,2024-04-08,Customer Support,18.0,1,0.0,6.9,3.0,18,No
+1059,,Poland,Eastern Europe,Master,mobile,Free,2024-06-09,Customer Support,21.0,2,0.0,4.2,3.0,66,No
+1060,45.0,Germany,Western Europe,Bachelor,Desktop,Premium,2024-02-15,Customer Support,21.7,4,9.96,7.5,5.0,74,No
+1061,16.0,France,Western Europe,Master,Mobile,Premium Plus,2025-03-16,Personal Assistant,29.0,1,20.21,6.3,4.0,68,No
+1062,30.0,Italy,Southern Europe,Bachelor,Mobile,Free,2025-07-03,Research,1.0,2,0.0,6.8,3.0,24,No
+1063,36.0,Italy,Southern Europe,Master,Mobile,Premium Plus,2025-01-08,Research,19.8,2,19.74,6.0,4.0,-45,No
+1064,40.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-03-22,Coding,26.5,5,0.22,5.8,2.0,25,Yes
+1065,42.0,France,Western Europe,Bachelor,Tablet,Premium Plus,2024-04-17,Writing,40.3,2,19.85,4.7,3.0,3,No
+1066,43.0,Ireland,Western Europe,Master,Mobile,Premium Plus,2024-01-22,Customer Support,52.5,8,20.15,7.7,3.0,25,No
+1067,30.0,Spain,Southern Europe,Bachelor,Desktop,Free,2024-10-30,Writing,37.0,6,0.0,9.0,,7,No
+1068,29.0,Sweden,Northern Europe,Bachelor,Desktop,Premium,2025-03-23,Coding,29.6,1,9.58,5.3,4.0,29,No
+1069,43.0,Poland,Eastern Europe,PhD,Desktop,Premium Plus,2024-04-03,Writing,29.9,6,20.22,7.9,3.0,-6,Yes
+1070,32.0,Italy,Southern Europe,PhD,Mobile,Premium Plus,2025-06-09,Writing,26.0,2,20.07,7.7,,-15,No
+1071,20.0,Netherlands,Western Europe,Master,Desktop,Premium Plus,2024-06-05,Customer Support,25.1,6,20.27,6.3,3.0,73,No
+1072,22.0,France,Western Europe,Bachelor,Desktop,Premium,2024-11-14,Customer Support,11.9,3,9.83,3.6,5.0,-4,No
+1073,24.0,Netherlands,Western Europe,Master,desktop,Free,2025-02-17,Coding,21.2,2,0.0,4.0,3.0,30,No
+1074,39.0,Spain,Southern Europe,Master,Mobile,Premium,2024-11-30,Writing,34.3,2,10.4,4.9,2.0,63,No
+1075,36.0,Portugal,Southern Europe,Bachelor,TABLET,Premium,2024-10-23,Coding,21.0,0,9.53,2.4,2.0,62,No
+1076,42.0,France,Western Europe,High School,Mobile,Premium,2024-07-27,Coding,74.8,7,10.37,8.8,4.0,58,No
+1077,29.0,Belgium,Western Europe,Master,Desktop,Free,2024-09-23,Customer Support,7.2,3,0.4,7.0,5.0,41,No
+1078,36.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2024-05-27,Research,12.4,1,10.25,6.2,3.0,55,No
+1079,41.0,Portugal,Southern Europe,Master,Mobile,Free,2024-07-01,Research,63.5,6,0.0,2.4,5.0,78,No
+1080,31.0,Netherlands,Western Europe,PhD,Mobile,Premium,2025-04-13,Research,16.4,0,9.75,3.6,4.0,45,No
+1081,39.0,Netherlands,Western Europe,Master,Mobile,Free,2025-07-01,Translation,10.1,0,0.0,6.3,3.0,-34,No
+1082,27.0,Germany,Western Europe,Bachelor,Mobile,Premium,2025-06-10,Personal Assistant,17.1,5,9.6,9.8,3.0,12,No
+1083,30.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2024-07-24,Research,29.0,4,9.7,5.0,4.0,54,No
+1084,30.0,Belgium,Western Europe,Bachelor,Mobile,Free,2024-07-18,Research,14.6,1,0.19,7.9,4.0,8,No
+1085,21.0,France,Western Europe,High School,Mobile,Free,2024-02-06,Writing,17.9,1,0.19,5.4,4.0,87,No
+1086,39.0,Germany,Western Europe,Master,Desktop,Free,2024-06-18,Translation,33.8,0,0.0,6.4,3.0,28,No
+1087,29.0,Netherlands,Western Europe,Master,Desktop,Premium Plus,2024-12-29,Coding,18.0,2,20.19,8.5,3.0,33,No
+1088,34.0,Netherlands,Western Europe,Bachelor,Desktop,Premium,2024-06-15,Coding,22.0,2,10.13,5.7,5.0,69,Yes
+1089,39.0,Belgium,Western Europe,Bachelor,Mobile,Free,2025-03-30,Translation,26.0,2,0.45,5.1,4.0,24,Yes
+1090,39.0,Netherlands,Western Europe,Master,Mobile,Free,2024-02-01,Customer Support,34.1,2,0.17,8.9,4.0,36,No
+1091,41.0,Spain,Southern Europe,High School,Tablet,Free,2024-09-12,Writing,27.2,3,0.32,6.4,4.0,61,No
+1092,33.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-06-23,Writing,22.2,1,0.14,8.3,4.0,-22,No
+1093,29.0,Germany,Western Europe,Bachelor,Mobile,Premium Plus,2024-11-02,Writing,63.3,5,20.28,5.1,4.0,20,No
+1094,33.0,Belgium,Western Europe,Master,Tablet,Premium,2024-01-16,Research,21.5,2,9.6,8.8,,59,No
+1095,16.0,Belgium,Western Europe,Bachelor,Tablet,Free,2024-09-16,Writing,21.0,4,0.0,6.8,4.0,32,No
+1096,18.0,Netherlands,Western Europe,Master,Mobile,Premium,2025-05-03,Translation,45.3,5,9.98,7.1,4.0,81,No
+1097,19.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-06-15,Translation,42.0,6,0.0,6.5,,-25,No
+1098,23.0,Sweden,Northern Europe,Master,Mobile,Premium,2024-06-07,Research,21.4,1,10.12,5.4,4.0,-29,No
+1099,38.0,Netherlands,Western Europe,High School,Desktop,Free,2024-09-22,Customer Support,5.4,0,0.19,6.3,3.0,57,No
+1100,24.0,France,Western Europe,Bachelor,Mobile,Premium,2025-03-03,Coding,21.4,3,10.11,5.5,3.0,60,No
+1101,30.0,France,Western Europe,Bachelor,Mobile,Premium Plus,2024-10-14,Writing,33.5,2,19.94,8.0,5.0,23,No
+1102,48.0,Germany,Western Europe,Bachelor,Desktop,Free,2024-12-02,Customer Support,8.2,1,0.0,5.9,2.0,44,Yes
+1103,30.0,Belgium,Western Europe,High School,Mobile,Premium,2024-07-30,Writing,21.0,3,10.32,3.6,4.0,56,No
+1104,,Italy,Southern Europe,Bachelor,Desktop,Premium Plus,2025-06-03,Writing,59.8,5,20.09,3.3,3.0,2,No
+1105,24.0,Sweden,Northern Europe,Bachelor,Mobile,Free,2025-01-26,Coding,185.4,12,0.0,3.2,3.0,5,No
+1106,32.0,Germany,Western Europe,High School,DESKTOP,Free,2025-08-18,Writing,11.1,0,0.0,7.4,5.0,37,No
+1107,24.0,Germany,Western Europe,PhD,Desktop,Premium,2025-04-28,Coding,9.6,4,9.47,4.8,3.0,62,No
+1108,30.0,Germany,Western Europe,Bachelor,Mobile,Free,2024-08-15,Customer Support,18.4,5,0.01,6.8,3.0,-11,No
+1109,43.0,France,Western Europe,Master,Desktop,Free,2024-07-22,Personal Assistant,5.2,1,0.0,6.5,3.0,23,No
+1110,16.0,Spain,Southern Europe,PhD,Mobile,Free,2024-02-24,Customer Support,21.8,1,0.0,6.8,3.0,21,No
+1111,39.0,Germany,Western Europe,High School,Mobile,Premium,2025-01-20,Personal Assistant,12.5,0,10.47,7.1,4.0,45,Yes
+1112,37.0,Germany,Western Europe,Master,mobile,Free,2025-04-09,Coding,20.9,5,0.0,6.6,3.0,30,No
+1113,27.0,Portugal,Southern Europe,Master,Desktop,Free,2024-08-07,Personal Assistant,29.8,6,0.21,1.4,4.0,11,No
+1114,18.0,Netherlands,Western Europe,Master,Desktop,Premium,2024-01-14,Research,28.1,5,10.65,5.7,2.0,74,No
+1115,35.0,Belgium,Western Europe,Bachelor,Tablet,Free,2025-05-26,Coding,17.1,2,0.32,7.1,2.0,11,No
+1116,28.0,Italy,Southern Europe,Bachelor,Desktop,Premium,2024-05-18,Translation,26.0,4,9.98,9.3,,20,No
+1117,37.0,Netherlands,Western Europe,High School,Tablet,Free,2024-12-27,Coding,2.6,1,0.0,9.3,2.0,-26,No
+1118,34.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2024-02-03,Writing,48.1,5,19.58,3.8,5.0,5,No
+1119,52.0,Netherlands,Western Europe,PhD,Tablet,Premium,2024-02-08,Coding,25.0,0,9.87,6.3,2.0,48,No
+1120,31.0,Poland,Eastern Europe,PhD,Desktop,Free,2025-07-10,Coding,19.7,2,0.0,4.1,2.0,41,Yes
+1121,23.0,Netherlands,Western Europe,High School,Mobile,Premium Plus,2025-02-20,Coding,45.5,6,19.77,,4.0,51,No
+1122,36.0,Netherlands,Western Europe,Master,Desktop,Free,2024-01-04,Research,32.0,3,0.0,8.1,,49,Yes
+1123,36.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-03-03,Personal Assistant,10.2,1,0.0,6.9,2.0,100,Yes
+1124,49.0,Netherlands,Western Europe,PhD,Mobile,Free,2024-11-01,Coding,16.8,3,0.15,7.2,5.0,4,No
+1125,43.0,Spain,Southern Europe,High School,Mobile,Premium,2025-02-25,Research,32.0,3,9.62,8.8,3.0,-27,No
+1126,38.0,Germany,Western Europe,PhD,Mobile,Free,2024-09-19,Coding,39.7,4,0.0,9.1,3.0,-7,No
+1127,50.0,France,Western Europe,Master,Mobile,Free,2025-06-25,Personal Assistant,12.1,1,0.0,8.4,3.0,5,Yes
+1128,21.0,France,Western Europe,High School,Desktop,Free,2025-02-08,Writing,10.9,2,0.0,7.1,4.0,-4,No
+1129,27.0,Sweden,Northern Europe,High School,Desktop,Free,2025-01-15,Writing,20.9,4,0.55,5.7,4.0,33,Yes
+1130,24.0,Netherlands,Western Europe,Master,Mobile,Free,2024-06-28,Research,25.8,1,0.07,7.7,3.0,74,No
+1131,30.0,Sweden,Northern Europe,Bachelor,Mobile,Free,2025-02-26,Customer Support,19.0,5,0.0,7.8,3.0,84,No
+1132,19.0,Spain,Southern Europe,Bachelor,Mobile,Free,2025-06-25,Personal Assistant,46.2,2,0.13,,3.0,48,No
+1133,41.0,Netherlands,Western Europe,PhD,Mobile,Free,2024-01-31,Research,19.7,3,0.16,6.3,,100,No
+1134,32.0,Italy,Southern Europe,Master,Desktop,Premium,2025-03-31,Personal Assistant,29.7,3,9.95,8.3,3.0,18,No
+1135,18.0,Sweden,Northern Europe,Bachelor,Mobile,Free,2025-06-29,Coding,8.2,4,0.0,9.3,5.0,-27,No
+1136,23.0,Germany,Western Europe,Bachelor,Desktop,Premium,2024-09-25,Writing,15.3,3,10.52,5.0,3.0,67,No
+1137,37.0,Poland,Eastern Europe,High School,Desktop,Free,2025-04-19,Writing,7.2,0,0.0,,3.0,-34,No
+1138,43.0,Belgium,Western Europe,PhD,DESKTOP,Free,2024-08-09,Writing,17.4,3,0.2,7.5,2.0,4,Yes
+1139,56.0,France,Western Europe,Bachelor,Desktop,Free,2024-04-29,Coding,6.5,1,0.06,7.2,2.0,48,No
+1140,66.0,Ireland,Western Europe,Bachelor,Mobile,Free,2025-05-20,Research,19.4,0,0.18,5.4,3.0,26,No
+1141,39.0,Germany,Western Europe,Bachelor,Desktop,Free,2024-07-11,Coding,8.1,1,0.51,9.7,2.0,23,Yes
+1142,23.0,Sweden,Northern Europe,PhD,Desktop,Premium,2025-04-14,Research,68.6,2,10.16,7.7,3.0,-11,No
+1143,16.0,Germany,Western Europe,High School,Desktop,Free,2024-07-14,Research,7.6,1,0.0,7.3,2.0,30,No
+1144,37.0,Italy,Southern Europe,Master,Desktop,Free,2024-09-04,Customer Support,23.9,2,0.33,9.5,4.0,65,No
+1145,25.0,France,Western Europe,Master,Desktop,Premium,2025-02-28,Customer Support,26.3,3,9.8,5.5,3.0,31,No
+1146,29.0,Netherlands,Western Europe,Master,Tablet,Free,2024-07-30,Coding,13.0,4,0.05,6.1,3.0,1,No
+1147,27.0,Belgium,Western Europe,PhD,MOBILE,Free,2025-05-15,Coding,15.9,5,0.0,4.6,3.0,-14,No
+1148,32.0,Germany,Western Europe,Master,Desktop,Free,2024-01-25,Research,15.0,5,0.0,6.0,4.0,2,No
+1149,46.0,Netherlands,Western Europe,PhD,Desktop,Free,2024-01-08,Research,26.5,3,0.02,4.2,4.0,44,No
+1150,36.0,Netherlands,Western Europe,High School,Mobile,Free,2024-02-20,Coding,22.2,2,0.11,7.6,3.0,42,No
+1151,32.0,Germany,Western Europe,Master,Tablet,Premium,2024-06-07,Coding,32.9,5,9.48,7.1,2.0,2,No
+1152,23.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2024-02-03,Customer Support,40.4,6,20.14,5.8,3.0,-47,No
+1153,16.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2024-08-24,Customer Support,23.0,2,0.0,6.1,2.0,45,No
+1154,29.0,Italy,Southern Europe,Master,Mobile,Premium,2024-01-16,Writing,26.7,4,10.37,7.7,5.0,-1,No
+1155,33.0,Spain,Southern Europe,PhD,Mobile,Premium,2025-04-13,Research,19.6,3,9.88,4.9,4.0,54,No
+1156,53.0,Italy,Southern Europe,Master,Desktop,Free,2024-04-04,Personal Assistant,21.0,3,0.0,6.7,3.0,4,No
+1157,35.0,Germany,Western Europe,Bachelor,Mobile,Premium,2025-08-25,Writing,14.2,1,10.01,7.6,3.0,-5,No
+1158,45.0,Poland,Eastern Europe,Bachelor,Mobile,Premium,2025-06-15,Personal Assistant,25.5,6,9.72,3.1,3.0,35,No
+1159,29.0,France,Western Europe,Bachelor,Mobile,Premium Plus,2025-03-06,Writing,29.5,8,20.37,7.5,3.0,100,No
+1160,21.0,Netherlands,Western Europe,Bachelor,MOBILE,Premium Plus,2025-05-09,Research,19.4,4,19.99,3.3,4.0,56,No
+1161,23.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-04-25,Coding,3.9,1,0.0,6.1,3.0,35,No
+1162,26.0,Spain,Southern Europe,High School,Desktop,Free,2025-06-08,Writing,5.1,1,0.18,4.2,5.0,43,No
+1163,57.0,Netherlands,Western Europe,High School,MOBILE,Free,2024-12-10,Translation,5.7,2,0.0,8.9,4.0,-31,No
+1164,25.0,France,Western Europe,Master,Desktop,Free,2025-01-21,Research,34.9,4,0.0,4.2,5.0,-9,No
+1165,43.0,Ireland,Western Europe,Bachelor,Mobile,Free,2024-10-17,Translation,24.1,3,0.12,3.3,4.0,-58,No
+1166,24.0,Netherlands,Western Europe,PhD,Desktop,Premium Plus,2025-01-21,Coding,45.8,8,19.66,7.1,3.0,91,No
+1167,44.0,Netherlands,Western Europe,Master,mobile,Free,2024-08-24,Personal Assistant,8.6,2,0.0,5.6,4.0,83,No
+1168,38.0,Ireland,Western Europe,High School,Mobile,Free,2024-03-17,Translation,6.7,1,0.25,3.6,3.0,44,No
+1169,32.0,France,Western Europe,Bachelor,Mobile,Premium,2025-07-31,Research,77.7,7,10.15,7.2,5.0,35,No
+1170,34.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-03-09,Writing,8.7,2,0.0,2.7,4.0,-24,No
+1171,27.0,Poland,Eastern Europe,PhD,Mobile,Free,2025-03-13,Customer Support,24.7,1,0.0,5.0,4.0,22,No
+1172,39.0,Poland,Eastern Europe,Bachelor,Mobile,Premium Plus,2024-06-22,Research,45.9,6,19.72,5.3,4.0,93,No
+1173,29.0,France,Western Europe,Bachelor,Desktop,Free,2025-04-22,Translation,25.4,0,0.53,7.7,5.0,35,No
+1174,21.0,Spain,Southern Europe,PhD,Desktop,Free,2024-11-17,Coding,21.2,4,0.27,9.2,2.0,10,Yes
+1175,20.0,Germany,Western Europe,PhD,Mobile,Free,2024-02-17,Coding,6.3,1,0.0,8.9,5.0,-32,No
+1176,36.0,Netherlands,Western Europe,Bachelor,Desktop,Premium Plus,2025-08-14,Writing,30.8,6,20.16,6.0,3.0,78,No
+1177,51.0,France,Western Europe,High School,Desktop,Free,2025-09-06,Customer Support,1.0,0,0.0,1.9,,28,No
+1178,36.0,Germany,Western Europe,Bachelor,Mobile,Free,2025-06-23,Translation,33.6,2,0.0,7.0,3.0,-31,No
+1179,33.0,Spain,Southern Europe,High School,Desktop,Free,2024-10-21,Writing,24.4,2,0.03,8.9,2.0,-2,No
+1180,37.0,Sweden,Northern Europe,Bachelor,Mobile,Free,2024-05-24,Personal Assistant,4.1,0,0.14,8.5,4.0,-15,No
+1181,48.0,Netherlands,Western Europe,Master,Desktop,Premium Plus,2024-01-07,Translation,31.2,6,19.96,7.1,3.0,25,No
+1182,36.0,France,Western Europe,PhD,Mobile,Free,2025-04-01,Writing,35.5,5,0.07,4.8,4.0,37,No
+1183,29.0,Germany,Western Europe,Bachelor,Desktop,Premium Plus,2025-07-06,Writing,21.9,4,20.01,5.4,5.0,12,No
+1184,46.0,Poland,Eastern Europe,Master,Mobile,Free,2024-03-05,Customer Support,7.3,1,0.0,9.8,3.0,57,No
+1185,39.0,Germany,Western Europe,Bachelor,MOBILE,Free,2025-02-28,Customer Support,1.0,0,0.0,3.7,3.0,33,No
+1186,51.0,Spain,Southern Europe,Master,Tablet,Premium,2024-01-17,Writing,31.4,6,9.86,4.2,2.0,67,No
+1187,36.0,France,Western Europe,Master,Mobile,Free,2025-04-26,Personal Assistant,36.6,5,0.07,8.0,3.0,17,Yes
+1188,21.0,Belgium,Western Europe,Master,Desktop,Free,2024-01-18,Research,23.2,7,0.12,5.5,5.0,100,No
+1189,19.0,Spain,Southern Europe,PhD,Tablet,Premium,2025-08-27,Translation,43.6,3,10.05,4.8,4.0,10,No
+1190,,Italy,Southern Europe,Bachelor,Desktop,Free,2024-04-15,Personal Assistant,21.1,7,0.0,9.1,3.0,-2,No
+1191,53.0,France,Western Europe,High School,Mobile,Free,2024-09-05,Personal Assistant,5.2,1,0.0,7.1,,-6,No
+1192,32.0,Italy,Southern Europe,Bachelor,Desktop,Premium Plus,2025-03-06,Research,52.4,6,20.11,5.6,4.0,23,No
+1193,30.0,Ireland,Western Europe,Bachelor,Mobile,Free,2025-06-08,Coding,15.4,2,0.44,4.2,3.0,-30,No
+1194,50.0,Belgium,Western Europe,PhD,Mobile,Free,2024-08-13,Research,14.3,3,0.05,10.0,3.0,40,No
+1195,22.0,France,Western Europe,Bachelor,Desktop,Free,2025-08-30,Writing,22.8,2,0.0,6.3,4.0,-37,No
+1196,24.0,Netherlands,Western Europe,Master,Desktop,Free,2024-01-10,Customer Support,18.1,1,0.07,8.8,2.0,36,No
+1197,41.0,Italy,Southern Europe,Bachelor,Mobile,Free,2024-10-19,Writing,1.0,2,0.0,7.9,2.0,-17,Yes
+1198,30.0,France,Western Europe,Bachelor,Mobile,Premium,2025-09-04,Research,60.5,4,10.38,5.4,4.0,17,No
+1199,34.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-06-18,Writing,1.0,2,0.06,5.4,2.0,51,Yes
+1200,32.0,Netherlands,Western Europe,Master,Desktop,Premium,2024-11-26,Coding,49.5,3,9.79,8.9,,100,No
+1201,38.0,Poland,Eastern Europe,Master,Mobile,Free,2024-10-02,Coding,8.2,1,0.0,8.9,3.0,-8,No
+1202,49.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-09-01,Customer Support,22.8,2,0.0,2.9,2.0,25,Yes
+1203,35.0,Spain,Southern Europe,Bachelor,Mobile,Free,2025-04-21,Personal Assistant,34.9,2,0.39,7.3,3.0,5,No
+1204,41.0,Netherlands,Western Europe,Master,Mobile,Premium,2024-11-17,Writing,32.0,3,9.93,,2.0,0,Yes
+1205,16.0,Portugal,Southern Europe,Bachelor,Desktop,Free,2025-03-18,Personal Assistant,7.7,0,0.05,4.4,4.0,5,Yes
+1206,33.0,Netherlands,Western Europe,PhD,Tablet,Free,2024-11-18,Personal Assistant,5.1,0,0.17,7.4,3.0,59,No
+1207,25.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2025-09-10,Coding,29.3,6,9.77,3.9,5.0,13,No
+1208,21.0,Sweden,Northern Europe,High School,Mobile,Premium,2024-10-18,Customer Support,10.9,2,10.05,5.5,5.0,100,No
+1209,24.0,Poland,Eastern Europe,Bachelor,Mobile,Free,2025-05-08,Coding,24.2,4,0.08,4.9,2.0,45,No
+1210,30.0,Netherlands,Western Europe,Bachelor,Desktop,Premium Plus,2025-01-15,Writing,43.5,3,19.52,,2.0,-5,Yes
+1211,44.0,Belgium,Western Europe,Bachelor,Mobile,Free,2025-05-11,Research,10.5,1,0.08,6.2,3.0,17,No
+1212,19.0,Italy,Southern Europe,Bachelor,Mobile,Free,2025-07-03,Writing,13.5,2,0.0,4.5,2.0,2,No
+1213,,Poland,Eastern Europe,PhD,Tablet,Free,2024-05-20,Personal Assistant,26.9,3,0.04,9.7,5.0,58,No
+1214,29.0,Germany,Western Europe,Bachelor,Mobile,Free,2024-07-06,Translation,12.6,3,0.01,7.2,3.0,-27,No
+1215,30.0,France,Western Europe,Bachelor,Desktop,Free,2024-07-05,Personal Assistant,18.1,5,0.08,9.5,4.0,-17,No
+1216,45.0,Italy,Southern Europe,Bachelor,Mobile,Premium,2024-10-28,Research,68.9,11,10.39,6.0,,9,No
+1217,40.0,Italy,Southern Europe,High School,Desktop,Free,2024-10-31,Research,19.6,5,0.0,5.3,3.0,54,No
+1218,49.0,Italy,Southern Europe,Master,Mobile,Premium,2024-01-03,Translation,19.8,3,9.89,9.5,4.0,73,No
+1219,32.0,France,Western Europe,Bachelor,Mobile,Premium Plus,2025-07-09,Coding,75.7,3,20.19,5.3,5.0,78,No
+1220,26.0,Netherlands,Western Europe,Master,Mobile,Premium,2025-06-17,Writing,35.2,2,10.13,6.0,4.0,49,No
+1221,32.0,Poland,Eastern Europe,High School,Desktop,Premium,2025-01-07,Research,11.5,1,10.13,,3.0,27,No
+1222,37.0,Sweden,Northern Europe,PhD,Desktop,Premium,2024-07-08,Coding,11.7,2,10.82,4.7,5.0,58,No
+1223,36.0,Italy,Southern Europe,Bachelor,Mobile,Premium Plus,2025-05-27,Coding,13.0,0,20.17,7.6,3.0,-10,Yes
+1224,22.0,Netherlands,Western Europe,Master,Mobile,Free,2024-06-17,Writing,20.1,3,0.34,,3.0,-35,No
+1225,35.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2024-07-08,Research,1.0,1,0.0,8.6,1.0,45,No
+1226,37.0,Italy,Southern Europe,High School,Mobile,Free,2025-09-10,Coding,54.7,6,0.0,7.9,4.0,-5,No
+1227,62.0,Netherlands,Western Europe,Master,Mobile,Free,2025-07-26,Writing,12.3,1,0.0,8.6,3.0,28,Yes
+1228,55.0,Ireland,Western Europe,Master,DESKTOP,Free,2024-12-28,Writing,24.9,5,0.21,6.1,3.0,34,No
+1229,25.0,Germany,Western Europe,Master,Mobile,Premium,2024-04-14,Coding,22.4,1,10.11,4.7,3.0,39,No
+1230,31.0,Italy,Southern Europe,Bachelor,Mobile,Free,2024-03-17,Personal Assistant,23.7,3,0.12,10.0,3.0,63,No
+1231,18.0,Poland,Eastern Europe,Master,Mobile,Premium Plus,2025-08-20,Coding,29.0,3,19.93,3.6,3.0,59,No
+1232,28.0,Belgium,Western Europe,Master,Mobile,Free,2024-06-13,Customer Support,15.7,2,0.0,3.7,4.0,37,No
+1233,37.0,Germany,Western Europe,Master,Mobile,Free,2025-02-26,Personal Assistant,38.6,2,0.0,7.3,4.0,15,No
+1234,47.0,France,Western Europe,Bachelor,Desktop,Free,2024-08-07,Coding,45.2,2,0.22,9.2,3.0,34,No
+1235,26.0,France,Western Europe,Master,Desktop,Free,2024-11-03,Personal Assistant,42.6,9,0.25,6.6,4.0,9,No
+1236,27.0,Belgium,Western Europe,Master,Mobile,Free,2025-09-03,Customer Support,102.4,11,0.0,8.1,3.0,23,No
+1237,16.0,France,Western Europe,PhD,Desktop,Free,2025-01-02,Research,13.2,3,0.23,3.3,3.0,100,No
+1238,32.0,Portugal,Southern Europe,Bachelor,Mobile,Free,2024-09-23,Writing,24.6,2,0.0,5.4,4.0,36,No
+1239,22.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-09-14,Writing,13.6,5,0.14,2.9,2.0,46,Yes
+1240,28.0,Netherlands,Western Europe,Master,Mobile,Free,2024-05-22,Translation,27.6,5,0.0,7.7,4.0,5,Yes
+1241,24.0,Germany,Western Europe,Bachelor,Desktop,Free,2024-12-11,Personal Assistant,13.0,0,0.47,3.5,2.0,66,No
+1242,33.0,Belgium,Western Europe,Master,Mobile,Free,2024-12-19,Translation,38.5,5,0.0,4.0,2.0,57,No
+1243,16.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-02-28,Translation,23.5,5,0.05,7.2,2.0,57,No
+1244,18.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-09-07,Writing,17.4,2,0.18,8.2,,38,No
+1245,57.0,Spain,Southern Europe,Master,Mobile,Free,2025-02-03,Personal Assistant,17.4,2,0.0,6.0,5.0,66,No
+1246,20.0,Germany,Western Europe,High School,Mobile,Free,2024-02-04,Research,5.3,0,0.0,7.3,3.0,75,No
+1247,22.0,Portugal,Southern Europe,Bachelor,Desktop,Premium,2025-08-28,Personal Assistant,16.4,4,9.91,7.3,4.0,40,No
+1248,54.0,Germany,Western Europe,Master,Desktop,Premium Plus,2025-06-17,Writing,34.4,6,19.84,5.9,5.0,26,Yes
+1249,66.0,Netherlands,Western Europe,Master,Mobile,Premium Plus,2025-01-29,Coding,39.1,3,19.86,4.3,4.0,61,No
+1250,21.0,Italy,Southern Europe,Master,DESKTOP,Free,2024-01-10,Personal Assistant,3.9,1,0.33,7.3,3.0,-2,No
+1251,30.0,Poland,Eastern Europe,Bachelor,DESKTOP,Free,2024-11-17,Personal Assistant,11.6,5,0.0,7.4,3.0,5,No
+1252,38.0,Germany,Western Europe,High School,Desktop,Free,2025-07-11,Customer Support,31.6,1,0.17,7.9,,28,No
+1253,53.0,Netherlands,Western Europe,PhD,Desktop,Premium,2024-01-15,Coding,14.3,3,10.08,7.5,3.0,-31,No
+1254,23.0,Netherlands,Western Europe,Bachelor,Desktop,Premium,2025-05-05,Coding,10.3,1,9.57,4.2,3.0,59,No
+1255,31.0,France,Western Europe,Bachelor,Mobile,Premium,2025-06-04,Translation,47.5,1,10.15,7.5,4.0,-4,No
+1256,43.0,Belgium,Western Europe,Bachelor,Desktop,Premium Plus,2024-02-17,Coding,38.0,3,19.57,6.3,,13,No
+1257,39.0,Germany,Western Europe,Bachelor,Tablet,Free,2024-05-22,Research,8.7,1,0.19,5.4,2.0,23,No
+1258,30.0,Netherlands,Western Europe,Master,Mobile,Premium,2025-03-24,Research,17.1,3,9.84,5.8,3.0,31,No
+1259,33.0,France,Western Europe,Master,Mobile,Premium,2025-07-19,Coding,20.2,1,9.99,5.1,3.0,18,No
+1260,19.0,Portugal,Southern Europe,Master,Mobile,Free,2025-04-22,Research,32.6,3,0.0,7.9,4.0,28,No
+1261,31.0,Spain,Southern Europe,Bachelor,Tablet,Premium Plus,2024-11-21,Coding,24.7,6,20.03,3.7,5.0,28,No
+1262,31.0,France,Western Europe,Bachelor,Mobile,Free,2025-01-08,Personal Assistant,25.4,4,0.28,4.5,5.0,14,No
+1263,37.0,Netherlands,Western Europe,Bachelor,Desktop,Premium Plus,2024-11-21,Translation,42.3,6,19.75,5.7,3.0,3,No
+1264,28.0,Germany,Western Europe,High School,Desktop,Premium,2024-12-24,Translation,36.7,3,9.81,9.2,3.0,68,No
+1265,39.0,Germany,Western Europe,Bachelor,Tablet,Free,2025-04-22,Research,25.5,6,0.14,,4.0,-44,No
+1266,45.0,Italy,Southern Europe,Bachelor,Mobile,Premium,2024-01-31,Research,53.0,7,10.13,,3.0,23,No
+1267,36.0,Poland,Eastern Europe,High School,Desktop,Free,2024-05-09,Customer Support,29.9,3,0.0,8.7,3.0,14,No
+1268,38.0,Poland,Eastern Europe,Master,Desktop,Premium,2024-02-06,Personal Assistant,16.7,5,10.59,8.7,3.0,45,No
+1269,35.0,Ireland,Western Europe,Master,Mobile,Premium,2025-05-08,Research,17.1,2,10.15,4.2,1.0,-21,No
+1270,34.0,Ireland,Western Europe,High School,Desktop,Premium,2025-03-26,Customer Support,29.0,2,10.2,1.8,4.0,13,No
+1271,26.0,Portugal,Southern Europe,Bachelor,Mobile,Premium,2024-02-02,Personal Assistant,26.8,2,9.95,6.2,3.0,26,No
+1272,37.0,Netherlands,Western Europe,Master,Desktop,Free,2024-03-06,Customer Support,14.2,2,0.0,8.3,4.0,67,Yes
+1273,33.0,Netherlands,Western Europe,Master,Mobile,Free,2024-06-13,Personal Assistant,20.9,2,0.2,9.2,3.0,42,No
+1274,57.0,Germany,Western Europe,Master,Mobile,Free,2024-05-29,Writing,8.8,2,0.0,4.7,2.0,-11,No
+1275,51.0,France,Western Europe,Bachelor,Mobile,Free,2024-11-18,Research,49.0,8,0.16,9.5,3.0,13,No
+1276,38.0,Netherlands,Western Europe,Master,Mobile,Free,2024-11-05,Research,7.0,0,0.0,2.3,1.0,61,Yes
+1277,26.0,Sweden,Northern Europe,Bachelor,Mobile,Free,2024-08-09,Writing,3.4,6,0.07,5.6,2.0,-12,No
+1278,22.0,Spain,Southern Europe,Bachelor,Desktop,Free,2024-04-11,Personal Assistant,17.9,1,0.0,5.5,4.0,27,No
+1279,47.0,France,Western Europe,Bachelor,Mobile,Free,2025-02-06,Customer Support,22.3,2,0.26,8.4,3.0,30,No
+1280,37.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2025-05-04,Writing,40.9,6,19.63,8.6,4.0,16,No
+1281,39.0,Germany,Western Europe,Bachelor,Desktop,Free,2025-01-31,Personal Assistant,23.1,2,0.67,8.0,2.0,100,Yes
+1282,16.0,Netherlands,Western Europe,Bachelor,Desktop,Premium Plus,2025-05-15,Customer Support,35.5,3,20.66,3.9,3.0,16,No
+1283,44.0,Sweden,Northern Europe,Master,Mobile,Free,2025-07-20,Personal Assistant,12.5,2,0.49,7.9,3.0,46,No
+1284,39.0,France,Western Europe,Bachelor,Tablet,Free,2025-06-06,Coding,25.1,1,0.38,7.2,4.0,3,No
+1285,22.0,Italy,Southern Europe,Bachelor,MOBILE,Free,2025-02-07,Personal Assistant,1.6,2,0.0,3.3,4.0,48,No
+1286,,Germany,Western Europe,High School,Desktop,Free,2024-01-31,Coding,1.4,1,0.35,2.6,4.0,60,No
+1287,37.0,Germany,Western Europe,Bachelor,Mobile,Free,2024-07-26,Research,7.3,1,0.0,8.2,5.0,9,No
+1288,35.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-09-22,Writing,4.7,1,0.0,6.0,3.0,28,No
+1289,31.0,Italy,Southern Europe,Bachelor,Tablet,Free,2025-03-17,Customer Support,36.7,3,0.45,4.0,5.0,-1,No
+1290,33.0,Italy,Southern Europe,Bachelor,Desktop,Free,2025-06-09,Customer Support,29.2,6,0.34,5.9,2.0,-10,Yes
+1291,31.0,Netherlands,Western Europe,Master,Desktop,Premium,2025-02-01,Research,56.5,5,9.98,7.0,3.0,66,No
+1292,36.0,Portugal,Southern Europe,PhD,Desktop,Free,2024-08-13,Research,45.8,3,0.0,6.8,4.0,11,No
+1293,50.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2025-05-03,Personal Assistant,30.3,5,9.81,,2.0,-54,Yes
+1294,16.0,Poland,Eastern Europe,Master,Desktop,Free,2025-03-07,Customer Support,11.4,5,0.0,9.7,4.0,92,No
+1295,31.0,Netherlands,Western Europe,Master,Desktop,Premium Plus,2025-05-09,Coding,33.7,8,20.27,8.1,4.0,2,No
+1296,36.0,Germany,Western Europe,PhD,Tablet,Premium,2024-12-31,Translation,8.2,3,9.51,6.3,5.0,21,No
+1297,37.0,Sweden,Northern Europe,Master,Mobile,Premium Plus,2025-02-04,Customer Support,30.1,2,20.08,5.8,4.0,87,No
+1298,30.0,Netherlands,Western Europe,Master,Mobile,Premium,2024-08-03,Translation,26.7,4,9.74,6.9,4.0,25,No
+1299,16.0,Belgium,Western Europe,PhD,Desktop,Free,2024-09-04,Translation,1.9,2,0.0,4.9,4.0,24,No
+1300,38.0,Belgium,Western Europe,Master,Mobile,Free,2024-06-20,Translation,23.9,4,0.07,6.9,3.0,-13,No
+1301,53.0,Germany,Western Europe,Bachelor,Mobile,Free,2024-06-08,Personal Assistant,10.5,2,0.0,3.9,3.0,-27,No
+1302,17.0,Italy,Southern Europe,High School,MOBILE,Premium,2025-02-08,Customer Support,29.6,8,10.24,,4.0,24,No
+1303,44.0,Sweden,Northern Europe,High School,Desktop,Premium,2024-08-25,Writing,16.3,2,9.61,4.2,4.0,43,No
+1304,30.0,Poland,Eastern Europe,Bachelor,Mobile,Free,2024-03-23,Research,31.0,4,0.0,4.3,3.0,41,No
+1305,33.0,Germany,Western Europe,Bachelor,Mobile,Premium Plus,2024-01-22,Personal Assistant,24.1,3,19.27,9.3,4.0,13,No
+1306,22.0,France,Western Europe,Bachelor,Mobile,Free,2025-06-17,Research,18.5,1,0.0,6.4,5.0,31,No
+1307,30.0,Germany,Western Europe,Master,Desktop,Premium,2024-09-26,Personal Assistant,24.4,3,10.53,6.7,3.0,-34,No
+1308,48.0,Germany,Western Europe,Master,Desktop,Premium,2024-12-23,Writing,16.8,3,10.62,2.7,3.0,46,No
+1309,40.0,Netherlands,Western Europe,Master,Mobile,Free,2025-07-15,Coding,24.9,2,0.03,5.2,2.0,36,No
+1310,53.0,Portugal,Southern Europe,High School,Mobile,Premium,2024-03-10,Research,19.6,6,9.74,7.1,4.0,99,No
+1311,47.0,Poland,Eastern Europe,Bachelor,Desktop,Premium,2025-08-04,Coding,13.4,3,9.9,6.6,4.0,30,No
+1312,39.0,Italy,Southern Europe,Master,Mobile,Free,2025-03-12,Writing,16.1,0,0.26,2.4,4.0,-3,No
+1313,53.0,France,Western Europe,Master,Desktop,Free,2025-01-31,Writing,30.4,0,0.0,6.7,3.0,28,No
+1314,39.0,France,Western Europe,PhD,MOBILE,Free,2024-09-24,Personal Assistant,10.1,0,0.07,7.6,4.0,19,No
+1315,43.0,France,Western Europe,Master,Tablet,Premium,2025-03-13,Research,16.7,1,9.99,8.6,4.0,45,No
+1316,31.0,France,Western Europe,Master,Mobile,Free,2024-05-06,Writing,53.7,14,0.0,5.1,4.0,31,Yes
+1317,35.0,Belgium,Western Europe,Bachelor,Desktop,Premium Plus,2024-07-06,Writing,41.8,1,19.83,2.3,4.0,-14,No
+1318,26.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2025-08-18,Research,44.9,3,20.08,4.5,5.0,-27,Yes
+1319,45.0,Netherlands,Western Europe,Bachelor,TABLET,Free,2024-06-19,Writing,10.5,3,0.0,4.3,3.0,39,No
+1320,21.0,Portugal,Southern Europe,Master,Tablet,Free,2025-03-22,Customer Support,1.0,0,0.14,7.6,2.0,78,Yes
+1321,43.0,France,Western Europe,PhD,Desktop,Premium,2025-07-30,Personal Assistant,31.1,0,9.85,2.0,4.0,33,No
+1322,32.0,Portugal,Southern Europe,Bachelor,Mobile,Premium,2025-01-02,Coding,19.5,5,10.03,5.5,4.0,58,No
+1323,47.0,Netherlands,Western Europe,Master,Mobile,Free,2024-07-03,Research,12.2,2,0.42,8.9,5.0,65,Yes
+1324,42.0,France,Western Europe,Bachelor,Desktop,Free,2025-06-10,Writing,24.8,2,0.0,6.3,5.0,39,No
+1325,54.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-05-27,Coding,7.7,1,0.28,7.9,5.0,1,No
+1326,42.0,Germany,Western Europe,Bachelor,Mobile,Premium Plus,2024-12-03,Personal Assistant,31.0,1,19.45,,4.0,37,No
+1327,17.0,Netherlands,Western Europe,High School,Mobile,Free,2024-03-12,Research,15.1,1,0.0,3.4,4.0,72,Yes
+1328,,Netherlands,Western Europe,PhD,Mobile,Premium Plus,2024-09-30,Personal Assistant,34.7,5,20.0,9.5,2.0,49,No
+1329,21.0,Poland,Eastern Europe,Bachelor,Desktop,Free,2024-09-24,Coding,7.1,3,0.58,6.5,4.0,56,No
+1330,28.0,Germany,Western Europe,Master,Desktop,Premium Plus,2024-04-27,Coding,28.0,4,19.4,6.5,3.0,14,No
+1331,51.0,France,Western Europe,Master,Desktop,Free,2024-09-06,Research,43.2,3,0.0,4.3,,23,No
+1332,41.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-04-05,Research,27.0,3,0.44,6.5,3.0,26,No
+1333,26.0,Belgium,Western Europe,Bachelor,Mobile,Premium Plus,2025-03-05,Translation,30.7,1,19.75,4.2,4.0,28,No
+1334,23.0,France,Western Europe,Master,Mobile,Premium Plus,2024-09-24,Writing,57.3,6,19.93,8.4,4.0,71,No
+1335,34.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2025-03-28,Personal Assistant,24.8,3,0.1,10.0,4.0,-52,No
+1336,21.0,Ireland,Western Europe,PhD,Desktop,Free,2024-10-09,Personal Assistant,40.7,5,0.06,7.8,1.0,31,No
+1337,27.0,Sweden,Northern Europe,High School,Mobile,Free,2025-03-18,Research,1.0,4,0.47,5.2,4.0,27,No
+1338,37.0,Italy,Southern Europe,Master,mobile,Free,2025-03-30,Coding,8.2,3,0.13,1.7,4.0,-18,Yes
+1339,47.0,Belgium,Western Europe,Master,Mobile,Free,2024-04-09,Research,21.8,1,0.4,3.3,5.0,54,No
+1340,41.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2024-10-01,Coding,24.5,5,19.88,9.1,4.0,5,No
+1341,16.0,Poland,Eastern Europe,Bachelor,Desktop,Free,2025-04-09,Personal Assistant,13.5,2,0.0,4.4,5.0,18,No
+1342,37.0,Germany,Western Europe,PhD,mobile,Premium,2025-01-02,Research,28.8,0,9.92,6.2,4.0,95,No
+1343,35.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-05-17,Translation,19.2,2,0.0,,3.0,65,No
+1344,39.0,Germany,Western Europe,Bachelor,Desktop,Free,2025-05-31,Customer Support,36.0,1,0.15,9.0,4.0,50,No
+1345,52.0,Italy,Southern Europe,Bachelor,Mobile,Premium,2024-05-03,Research,45.1,3,9.87,5.9,4.0,43,Yes
+1346,16.0,Spain,Southern Europe,Bachelor,Mobile,Free,2025-09-07,Customer Support,4.3,0,0.0,5.6,3.0,24,No
+1347,27.0,Italy,Southern Europe,Master,Mobile,Premium,2025-03-14,Research,11.9,6,10.14,6.4,3.0,100,No
+1348,40.0,Italy,Southern Europe,Master,Desktop,Free,2024-07-18,Translation,9.4,1,0.0,5.2,,58,Yes
+1349,17.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2024-04-30,Writing,24.3,2,20.22,5.3,4.0,4,No
+1350,50.0,Poland,Eastern Europe,Master,Desktop,Premium,2025-07-13,Translation,26.6,5,9.85,7.0,4.0,-19,No
+1351,38.0,Belgium,Western Europe,Bachelor,Tablet,Premium Plus,2024-11-20,Personal Assistant,34.1,4,20.34,6.6,3.0,50,No
+1352,43.0,Spain,Southern Europe,High School,Desktop,Free,2025-05-14,Personal Assistant,20.7,3,0.0,10.0,3.0,28,No
+1353,28.0,Netherlands,Western Europe,Master,Mobile,Free,2025-05-30,Research,26.7,2,0.19,7.1,4.0,-20,No
+1354,43.0,Ireland,Western Europe,PhD,Desktop,Free,2024-02-12,Personal Assistant,64.9,9,0.05,9.0,4.0,45,No
+1355,46.0,Germany,Western Europe,High School,Mobile,Free,2025-02-27,Coding,16.9,8,0.22,4.4,2.0,21,No
+1356,,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-07-26,Personal Assistant,23.1,2,0.03,7.2,2.0,49,No
+1357,37.0,Belgium,Western Europe,Bachelor,Mobile,Free,2025-07-16,Writing,17.4,5,0.0,,4.0,45,No
+1358,37.0,Netherlands,Western Europe,Master,Mobile,Free,2024-05-15,Coding,14.8,1,0.3,7.0,2.0,9,No
+1359,25.0,Netherlands,Western Europe,High School,Mobile,Free,2024-01-21,Research,25.1,5,0.0,7.5,4.0,52,No
+1360,32.0,Spain,Southern Europe,Bachelor,Mobile,Free,2025-02-15,Coding,14.0,1,0.24,6.4,5.0,13,No
+1361,32.0,Belgium,Western Europe,Master,Mobile,Free,2024-12-08,Coding,9.1,2,0.21,10.0,5.0,15,Yes
+1362,38.0,Poland,Eastern Europe,Bachelor,mobile,Free,2024-12-10,Personal Assistant,1.1,1,0.0,8.9,4.0,11,No
+1363,45.0,Germany,Western Europe,Bachelor,Desktop,Premium,2024-06-12,Coding,37.9,2,9.72,8.4,4.0,70,No
+1364,22.0,Italy,Southern Europe,Bachelor,TABLET,Free,2024-11-02,Personal Assistant,21.3,2,0.2,7.7,5.0,20,No
+1365,33.0,Belgium,Western Europe,Bachelor,Mobile,Free,2025-08-20,Writing,6.5,2,0.0,,1.0,78,Yes
+1366,50.0,Spain,Southern Europe,Bachelor,Desktop,Free,2025-04-18,Personal Assistant,27.8,4,0.28,3.7,3.0,92,Yes
+1367,26.0,France,Western Europe,Master,Mobile,Premium,2025-09-02,Personal Assistant,26.3,5,9.94,8.8,4.0,4,No
+1368,25.0,France,Western Europe,Master,Mobile,Free,2024-07-25,Coding,19.7,4,0.31,4.5,3.0,-72,Yes
+1369,,Portugal,Southern Europe,Master,Mobile,Premium,2025-06-23,Customer Support,15.8,2,10.12,5.3,,67,Yes
+1370,43.0,Germany,Western Europe,PhD,Mobile,Premium Plus,2024-08-25,Translation,24.1,4,20.08,7.9,4.0,18,No
+1371,34.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2025-08-03,Personal Assistant,17.1,3,0.0,8.5,3.0,0,No
+1372,49.0,Spain,Southern Europe,Bachelor,Mobile,Premium Plus,2025-06-20,Coding,234.4,16,20.06,4.2,3.0,9,No
+1373,43.0,Sweden,Northern Europe,PhD,Mobile,Premium,2024-04-12,Research,15.5,1,10.35,6.0,3.0,15,No
+1374,43.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2025-08-25,Personal Assistant,8.4,1,0.0,6.5,3.0,75,No
+1375,40.0,Belgium,Western Europe,Master,Mobile,Free,2025-01-11,Coding,1.0,0,0.16,6.0,4.0,36,No
+1376,60.0,Poland,Eastern Europe,Master,Mobile,Premium,2025-04-26,Personal Assistant,19.1,1,10.0,7.8,3.0,75,No
+1377,,Italy,Southern Europe,High School,Mobile,Premium Plus,2024-12-24,Coding,48.3,4,20.03,10.0,4.0,47,Yes
+1378,16.0,Ireland,Western Europe,Bachelor,Mobile,Free,2024-05-14,Personal Assistant,28.1,6,0.52,7.1,4.0,19,No
+1379,52.0,France,Western Europe,Bachelor,Mobile,Free,2025-09-02,Writing,43.2,8,0.36,5.0,4.0,16,No
+1380,29.0,Spain,Southern Europe,Bachelor,Mobile,Premium,2024-03-10,Writing,15.8,4,10.01,4.0,3.0,50,No
+1381,35.0,Germany,Western Europe,Bachelor,Mobile,Free,2025-05-16,Translation,33.1,1,0.06,5.7,2.0,59,Yes
+1382,48.0,Portugal,Southern Europe,Bachelor,Mobile,Premium,2024-05-09,Personal Assistant,21.5,2,9.78,4.6,4.0,65,No
+1383,16.0,Germany,Western Europe,Master,Tablet,Free,2025-05-02,Personal Assistant,10.3,3,0.0,7.1,5.0,21,No
+1384,20.0,Italy,Southern Europe,PhD,Mobile,Premium,2024-09-19,Translation,47.5,3,10.08,7.7,5.0,36,No
+1385,16.0,Belgium,Western Europe,Master,Mobile,Premium,2024-05-26,Coding,20.7,4,10.25,5.5,,50,No
+1386,25.0,France,Western Europe,Bachelor,Mobile,Premium,2024-05-26,Coding,18.5,3,10.21,9.9,4.0,17,No
+1387,39.0,Italy,Southern Europe,Bachelor,Tablet,Premium,2024-07-17,Writing,36.4,5,9.66,5.0,4.0,-10,No
+1388,40.0,France,Western Europe,Bachelor,Desktop,Premium,2025-07-12,Research,36.2,4,10.28,6.1,2.0,2,Yes
+1389,37.0,Poland,Eastern Europe,High School,Desktop,Premium,2025-04-22,Coding,28.7,3,9.96,,5.0,22,No
+1390,,Belgium,Western Europe,PhD,Tablet,Premium,2025-02-19,Translation,15.2,2,9.69,8.5,3.0,53,No
+1391,16.0,Spain,Southern Europe,Bachelor,Mobile,Free,2025-01-25,Writing,19.0,2,0.4,8.6,3.0,74,No
+1392,35.0,Germany,Western Europe,Bachelor,Tablet,Premium,2024-09-15,Writing,46.8,8,10.43,7.1,4.0,-17,Yes
+1393,29.0,Belgium,Western Europe,Master,Mobile,Free,2025-07-12,Coding,20.9,2,0.08,8.2,4.0,9,No
+1394,39.0,Belgium,Western Europe,Bachelor,desktop,Premium,2024-06-18,Writing,15.9,2,10.2,5.1,3.0,17,No
+1395,42.0,Netherlands,Western Europe,High School,MOBILE,Premium,2025-08-07,Coding,29.7,3,10.22,8.0,2.0,58,No
+1396,36.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-08-24,Customer Support,19.5,3,0.42,7.9,4.0,12,No
+1397,42.0,Spain,Southern Europe,Master,Tablet,Free,2024-07-30,Coding,25.8,0,0.22,9.0,2.0,15,No
+1398,37.0,Spain,Southern Europe,Master,Mobile,Free,2024-10-22,Customer Support,24.3,5,0.0,3.3,3.0,-19,No
+1399,40.0,Spain,Southern Europe,Bachelor,Tablet,Premium,2025-04-09,Personal Assistant,20.4,2,10.59,4.7,5.0,47,No
+1400,26.0,Netherlands,Western Europe,PhD,Mobile,Free,2025-03-18,Customer Support,14.4,3,0.32,8.4,4.0,24,No
+1401,32.0,Germany,Western Europe,Master,Desktop,Free,2025-04-20,Customer Support,10.7,3,0.0,1.5,4.0,7,No
+1402,36.0,Netherlands,Western Europe,Master,tablet,Premium Plus,2024-02-25,Coding,36.1,4,19.68,7.2,4.0,21,No
+1403,43.0,Italy,Southern Europe,Bachelor,Mobile,Premium,2024-04-09,Writing,46.4,4,10.14,8.2,5.0,69,Yes
+1404,30.0,Sweden,Northern Europe,High School,Tablet,Free,2025-06-10,Coding,14.3,1,0.0,5.3,3.0,-5,No
+1405,40.0,Germany,Western Europe,Master,Desktop,Free,2025-08-31,Translation,44.6,6,0.1,5.5,4.0,1,No
+1406,31.0,Spain,Southern Europe,Bachelor,Desktop,Premium Plus,2024-03-20,Customer Support,36.6,6,20.21,4.4,3.0,74,Yes
+1407,33.0,Netherlands,Western Europe,Master,Mobile,Premium,2025-07-14,Coding,32.8,1,9.82,5.4,4.0,33,No
+1408,43.0,Germany,Western Europe,Master,Mobile,Premium,2024-06-11,Research,33.0,8,9.66,5.4,4.0,53,No
+1409,16.0,Netherlands,Western Europe,High School,Desktop,Free,2025-08-30,Personal Assistant,27.4,2,0.12,5.1,5.0,44,No
+1410,20.0,Germany,Western Europe,Master,MOBILE,Free,2025-09-08,Customer Support,18.1,2,0.0,5.0,3.0,29,No
+1411,18.0,Spain,Southern Europe,PhD,Mobile,Free,2025-01-29,Research,1.0,1,0.04,6.4,5.0,18,No
+1412,16.0,Poland,Eastern Europe,Master,Mobile,Premium,2024-04-27,Personal Assistant,30.7,3,9.59,5.8,4.0,59,No
+1413,27.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-05-03,Customer Support,0.0,0,0.0,9.7,3.0,71,Yes
+1414,42.0,France,Western Europe,Master,Mobile,Free,2024-03-03,Customer Support,18.1,1,0.21,5.6,4.0,68,No
+1415,31.0,Spain,Southern Europe,Bachelor,Desktop,Premium,2024-07-26,Writing,30.7,0,10.17,6.9,4.0,-11,No
+1416,36.0,Portugal,Southern Europe,Master,Tablet,Premium Plus,2025-01-30,Writing,53.9,9,19.75,5.3,4.0,76,No
+1417,46.0,Spain,Southern Europe,Master,Mobile,Premium,2024-02-11,Translation,8.9,1,9.64,5.2,3.0,17,No
+1418,49.0,Germany,Western Europe,Master,Mobile,Free,2024-08-31,Research,16.3,1,0.0,3.2,3.0,4,Yes
+1419,33.0,Spain,Southern Europe,Bachelor,Desktop,Free,2025-05-09,Coding,11.6,3,0.17,3.5,3.0,24,Yes
+1420,49.0,Germany,Western Europe,High School,Mobile,Free,2024-02-26,Research,21.6,2,0.12,4.1,2.0,59,Yes
+1421,35.0,Ireland,Western Europe,Bachelor,Desktop,Free,2024-08-15,Writing,8.1,3,0.0,6.6,4.0,49,Yes
+1422,25.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-01-03,Personal Assistant,23.8,2,0.09,8.2,2.0,21,No
+1423,27.0,Spain,Southern Europe,Bachelor,Desktop,Free,2025-02-12,Writing,4.3,0,0.45,3.1,3.0,59,Yes
+1424,18.0,Netherlands,Western Europe,Master,Mobile,Premium,2024-02-19,Personal Assistant,27.3,2,10.05,,4.0,35,No
+1425,24.0,Belgium,Western Europe,Bachelor,Desktop,Premium Plus,2024-06-23,Research,53.5,9,19.5,3.8,4.0,10,No
+1426,30.0,Poland,Eastern Europe,Master,Desktop,Premium Plus,2024-11-20,Coding,29.6,0,20.05,5.8,2.0,5,Yes
+1427,43.0,Spain,Southern Europe,PhD,Mobile,Free,2024-05-13,Writing,17.3,1,0.61,8.8,,44,Yes
+1428,53.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-05-23,Personal Assistant,31.9,6,0.0,5.5,4.0,27,No
+1429,19.0,Portugal,Southern Europe,Master,desktop,Free,2025-06-01,Writing,24.3,0,0.01,6.2,3.0,-18,No
+1430,38.0,Sweden,Northern Europe,Master,desktop,Free,2025-04-27,Writing,57.6,6,0.0,8.9,5.0,60,No
+1431,23.0,Germany,Western Europe,Bachelor,Mobile,Free,2024-02-20,Personal Assistant,15.2,4,0.03,7.1,3.0,13,Yes
+1432,39.0,France,Western Europe,Bachelor,Mobile,Free,2025-06-15,Coding,28.3,3,0.06,4.9,2.0,86,No
+1433,33.0,France,Western Europe,Master,Mobile,Premium,2024-10-17,Coding,32.7,1,10.33,,4.0,-19,No
+1434,16.0,Spain,Southern Europe,PhD,Mobile,Free,2024-03-30,Coding,31.8,2,0.03,5.4,3.0,24,No
+1435,44.0,Germany,Western Europe,Master,Mobile,Premium Plus,2025-07-16,Personal Assistant,30.5,3,20.37,,2.0,6,Yes
+1436,27.0,Germany,Western Europe,PhD,Tablet,Free,2024-07-27,Coding,58.9,6,0.0,7.8,3.0,-4,Yes
+1437,28.0,Poland,Eastern Europe,PhD,Mobile,Free,2024-07-20,Writing,8.8,1,0.0,4.4,4.0,13,Yes
+1438,22.0,Poland,Eastern Europe,Bachelor,Desktop,Free,2024-03-31,Coding,41.7,7,0.0,,2.0,92,No
+1439,27.0,Sweden,Northern Europe,Master,Mobile,Free,2025-07-03,Writing,11.0,0,0.0,6.1,5.0,35,No
+1440,39.0,Ireland,Western Europe,Bachelor,Mobile,Free,2024-06-26,Coding,20.4,1,0.08,7.3,3.0,2,No
+1441,32.0,Italy,Southern Europe,PhD,Mobile,Premium Plus,2025-01-02,Writing,31.6,6,20.61,8.4,4.0,-34,No
+1442,,Italy,Southern Europe,High School,Mobile,Free,2024-05-28,Writing,29.3,2,0.14,7.2,2.0,-30,Yes
+1443,38.0,Italy,Southern Europe,Bachelor,Desktop,Free,2025-07-09,Coding,24.9,3,0.21,5.8,3.0,11,No
+1444,,France,Western Europe,Master,Tablet,Premium,2025-05-02,Personal Assistant,33.9,8,9.87,8.0,3.0,8,Yes
+1445,30.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-11-07,Writing,4.3,2,0.0,4.7,2.0,22,No
+1446,18.0,Germany,Western Europe,Master,Mobile,Premium,2024-08-02,Writing,12.4,3,10.29,3.9,5.0,-50,No
+1447,46.0,Spain,Southern Europe,Bachelor,Desktop,Free,2025-02-10,Translation,10.1,0,0.6,1.0,3.0,27,No
+1448,30.0,Germany,Western Europe,PhD,Mobile,Premium,2024-11-03,Personal Assistant,23.1,2,10.44,6.8,3.0,66,No
+1449,46.0,Germany,Western Europe,Master,Tablet,Free,2025-08-06,Customer Support,1.0,0,0.24,4.8,4.0,87,No
+1450,38.0,France,Western Europe,Bachelor,Mobile,Free,2025-02-21,Coding,11.7,2,0.01,7.0,5.0,-36,No
+1451,33.0,Belgium,Western Europe,Master,Mobile,Premium,2024-01-17,Coding,14.0,1,10.05,2.8,5.0,2,No
+1452,38.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2025-05-24,Writing,28.6,1,9.76,5.1,3.0,0,Yes
+1453,55.0,Sweden,Northern Europe,Master,Mobile,Free,2024-04-29,Writing,4.7,1,0.0,7.1,4.0,35,No
+1454,57.0,Sweden,Northern Europe,Master,Mobile,Premium,2024-07-05,Coding,14.3,4,9.65,4.4,2.0,-13,Yes
+1455,35.0,Netherlands,Western Europe,Master,TABLET,Free,2024-09-27,Research,11.7,2,0.01,7.0,4.0,89,No
+1456,36.0,Netherlands,Western Europe,High School,desktop,Free,2024-05-09,Coding,31.9,5,0.0,5.3,2.0,32,No
+1457,46.0,Germany,Western Europe,Bachelor,Tablet,Free,2025-08-07,Customer Support,13.2,0,0.0,6.2,3.0,26,No
+1458,25.0,Italy,Southern Europe,Master,Mobile,Premium,2025-08-29,Coding,25.7,0,9.98,7.4,4.0,86,No
+1459,38.0,Sweden,Northern Europe,Master,Desktop,Free,2024-04-06,Coding,17.7,3,0.0,8.0,4.0,29,No
+1460,34.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2024-07-17,Personal Assistant,10.3,3,9.64,6.5,3.0,44,No
+1461,37.0,Italy,Southern Europe,High School,Mobile,Free,2024-08-17,Personal Assistant,15.7,4,0.0,4.8,5.0,4,Yes
+1462,25.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2025-02-20,Coding,17.4,3,9.89,5.5,4.0,-18,No
+1463,17.0,Belgium,Western Europe,Master,Mobile,Premium,2025-01-05,Research,42.9,6,9.81,7.4,4.0,9,Yes
+1464,16.0,Ireland,Western Europe,High School,Desktop,Free,2025-02-24,Coding,25.8,0,0.28,4.5,2.0,100,No
+1465,22.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-01-20,Writing,2.5,2,0.0,6.0,5.0,52,No
+1466,,Netherlands,Western Europe,PhD,Mobile,Free,2024-11-14,Customer Support,15.4,0,0.0,6.2,3.0,40,No
+1467,31.0,Belgium,Western Europe,High School,Desktop,Premium,2024-05-10,Writing,37.8,3,9.99,6.1,5.0,-4,No
+1468,55.0,Spain,Southern Europe,Master,Mobile,Free,2024-05-21,Coding,21.1,3,0.03,4.5,5.0,62,No
+1469,46.0,Portugal,Southern Europe,Bachelor,TABLET,Free,2025-04-25,Research,21.2,6,0.12,,4.0,-18,No
+1470,23.0,Ireland,Western Europe,Master,Mobile,Free,2024-03-28,Writing,4.2,2,0.0,7.2,,-25,No
+1471,38.0,Netherlands,Western Europe,Master,Desktop,Premium,2024-01-20,Writing,60.5,10,9.71,8.0,1.0,10,No
+1472,30.0,Netherlands,Western Europe,Master,Desktop,Free,2024-10-28,Coding,6.1,3,0.0,3.1,3.0,98,No
+1473,31.0,Italy,Southern Europe,Bachelor,Desktop,Free,2025-04-01,Translation,7.1,2,0.0,7.0,4.0,96,No
+1474,36.0,Germany,Western Europe,Bachelor,Desktop,Premium Plus,2024-11-12,Customer Support,23.7,5,20.46,8.2,4.0,14,No
+1475,41.0,Poland,Eastern Europe,Master,Desktop,Free,2024-04-10,Coding,7.1,1,0.0,7.4,2.0,6,Yes
+1476,30.0,Spain,Southern Europe,Bachelor,Desktop,Premium,2025-04-24,Writing,47.5,2,9.97,5.5,3.0,-27,No
+1477,46.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-08-24,Customer Support,22.8,2,0.74,4.6,1.0,33,Yes
+1478,21.0,Sweden,Northern Europe,High School,Mobile,Free,2025-03-16,Writing,19.0,5,0.0,6.4,4.0,36,No
+1479,34.0,Netherlands,Western Europe,PhD,Desktop,Premium Plus,2024-05-05,Research,45.5,0,20.16,7.3,2.0,58,No
+1480,63.0,Belgium,Western Europe,Master,Mobile,Premium,2025-07-19,Personal Assistant,41.2,4,10.18,6.5,5.0,62,No
+1481,36.0,France,Western Europe,Master,Mobile,Premium,2024-06-24,Coding,32.3,5,10.21,6.0,,23,No
+1482,50.0,France,Western Europe,Master,Mobile,Free,2025-08-24,Coding,2.4,1,0.09,4.4,3.0,49,No
+1483,35.0,Spain,Southern Europe,Bachelor,Mobile,Free,2024-08-21,Writing,23.5,4,0.06,7.1,4.0,5,No
+1484,40.0,Spain,Southern Europe,Bachelor,Mobile,Free,2025-03-27,Writing,24.5,4,0.03,7.1,3.0,49,No
+1485,33.0,Ireland,Western Europe,Bachelor,Desktop,Free,2024-11-07,Coding,11.9,5,0.0,6.7,4.0,12,No
+1486,32.0,Ireland,Western Europe,Master,Desktop,Free,2024-02-17,Personal Assistant,28.5,6,0.1,6.5,2.0,46,Yes
+1487,25.0,France,Western Europe,Bachelor,Desktop,Free,2024-03-01,Coding,36.0,9,0.61,9.3,4.0,43,Yes
+1488,39.0,Netherlands,Western Europe,Master,Mobile,Free,2024-09-08,Research,14.3,2,0.36,5.2,,32,No
+1489,25.0,Italy,Southern Europe,Master,Mobile,Free,2024-04-29,Customer Support,28.7,5,0.09,8.6,2.0,58,No
+1490,41.0,Ireland,Western Europe,Bachelor,Desktop,Free,2025-01-12,Writing,18.7,2,0.26,5.0,3.0,-25,Yes
+1491,46.0,Germany,Western Europe,Master,Mobile,Free,2024-03-26,Writing,2.5,0,0.0,8.3,3.0,-7,No
+1492,38.0,Belgium,Western Europe,High School,Desktop,Premium Plus,2024-12-31,Coding,30.6,3,19.91,8.5,,21,No
+1493,31.0,Belgium,Western Europe,PhD,Mobile,Premium,2024-05-07,Customer Support,29.1,3,10.27,6.4,3.0,-21,No
+1494,39.0,Netherlands,Western Europe,PhD,Tablet,Free,2024-04-22,Coding,8.9,2,0.45,9.9,5.0,16,No
+1495,31.0,Spain,Southern Europe,PhD,Mobile,Premium,2024-08-15,Customer Support,25.6,2,9.76,7.7,4.0,17,No
+1496,44.0,Germany,Western Europe,Bachelor,Desktop,Premium,2024-12-27,Personal Assistant,25.5,4,9.84,4.7,4.0,76,Yes
+1497,16.0,Italy,Southern Europe,Bachelor,Desktop,Free,2024-09-04,Personal Assistant,65.7,6,0.65,5.6,4.0,35,No
+1498,30.0,Sweden,Northern Europe,Bachelor,Mobile,Free,2024-08-04,Translation,8.5,1,0.03,8.3,,66,Yes
+1499,,Sweden,Northern Europe,High School,Desktop,Free,2024-07-29,Personal Assistant,11.6,2,0.55,8.0,4.0,41,Yes
+1500,18.0,Belgium,Western Europe,High School,Mobile,Free,2024-07-29,Personal Assistant,26.8,1,0.06,4.4,4.0,11,No
+1501,49.0,Germany,Western Europe,High School,Desktop,Premium,2024-09-07,Personal Assistant,21.8,2,10.06,6.0,4.0,35,No
+1502,44.0,Italy,Southern Europe,PhD,Desktop,Premium Plus,2025-06-01,Customer Support,37.2,4,19.9,7.3,2.0,56,Yes
+1503,26.0,Italy,Southern Europe,High School,Mobile,Free,2024-12-24,Personal Assistant,17.8,2,0.28,5.4,2.0,72,No
+1504,17.0,France,Western Europe,High School,Mobile,Premium,2024-09-18,Translation,39.1,8,10.4,10.0,4.0,25,No
+1505,16.0,Poland,Eastern Europe,Master,desktop,Free,2025-04-09,Research,14.5,3,0.0,6.7,3.0,-28,Yes
+1506,28.0,Netherlands,Western Europe,Master,Mobile,Premium,2024-11-22,Customer Support,35.0,5,9.88,6.2,4.0,-30,No
+1507,61.0,Poland,Eastern Europe,Master,Desktop,Premium,2025-08-11,Research,27.9,4,10.26,8.4,,19,No
+1508,39.0,Netherlands,Western Europe,Master,Desktop,Free,2024-12-14,Personal Assistant,46.8,2,0.0,5.6,4.0,-52,No
+1509,28.0,Netherlands,Western Europe,Master,desktop,Free,2024-05-13,Coding,17.9,4,0.0,8.1,2.0,93,No
+1510,39.0,France,Western Europe,Master,Mobile,Premium,2024-12-15,Personal Assistant,5.9,0,10.29,3.3,4.0,51,No
+1511,17.0,Netherlands,Western Europe,Bachelor,Desktop,Premium Plus,2025-04-24,Personal Assistant,34.3,4,20.32,5.5,2.0,8,Yes
+1512,31.0,Netherlands,Western Europe,Master,Tablet,Free,2024-05-12,Translation,18.6,4,0.0,8.2,4.0,-9,No
+1513,,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-05-05,Coding,39.5,6,0.06,9.1,2.0,66,Yes
+1514,33.0,Belgium,Western Europe,Bachelor,Mobile,Free,2025-01-06,Customer Support,8.7,1,0.0,4.9,4.0,-9,Yes
+1515,43.0,Italy,Southern Europe,Bachelor,Mobile,Premium,2025-07-02,Personal Assistant,9.9,1,9.72,4.7,2.0,-6,No
+1516,38.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2024-07-26,Translation,29.7,5,10.03,7.3,3.0,3,No
+1517,41.0,Spain,Southern Europe,Master,Desktop,Premium,2024-11-10,Translation,62.0,5,10.0,5.2,4.0,34,No
+1518,26.0,Sweden,Northern Europe,Bachelor,Mobile,Premium,2025-02-10,Research,31.1,4,9.7,5.8,4.0,52,No
+1519,,Netherlands,Western Europe,Bachelor,Desktop,Premium Plus,2025-02-15,Research,41.2,4,19.78,7.9,2.0,72,No
+1520,52.0,Netherlands,Western Europe,Bachelor,Mobile,Premium,2024-03-31,Writing,4.4,1,9.67,5.3,3.0,67,No
+1521,23.0,Sweden,Northern Europe,Master,Mobile,Free,2024-09-02,Translation,12.8,4,0.14,2.8,2.0,30,No
+1522,24.0,Sweden,Northern Europe,Bachelor,Mobile,Premium,2025-09-08,Coding,41.9,5,9.4,4.0,2.0,66,No
+1523,49.0,France,Western Europe,Master,Desktop,Free,2025-07-04,Customer Support,21.2,4,0.0,6.3,3.0,7,No
+1524,32.0,Sweden,Northern Europe,Master,Desktop,Free,2025-04-23,Personal Assistant,1.0,2,0.0,2.9,4.0,-34,No
+1525,49.0,Netherlands,Western Europe,High School,Mobile,Premium Plus,2024-01-16,Research,30.9,5,20.12,5.8,,7,No
+1526,29.0,Belgium,Western Europe,Master,Desktop,Premium,2024-09-15,Writing,28.1,2,9.45,,4.0,2,No
+1527,50.0,Italy,Southern Europe,Bachelor,Mobile,Premium Plus,2024-02-01,Writing,32.3,3,20.0,9.3,4.0,8,No
+1528,35.0,Germany,Western Europe,Bachelor,Mobile,Free,2024-07-05,Personal Assistant,9.8,4,0.49,10.0,3.0,-4,No
+1529,37.0,Italy,Southern Europe,Master,Mobile,Free,2025-06-20,Research,31.1,3,0.5,4.4,2.0,14,No
+1530,51.0,France,Western Europe,PhD,Tablet,Free,2024-08-28,Writing,12.1,3,0.0,7.4,,52,Yes
+1531,,Italy,Southern Europe,Bachelor,desktop,Free,2024-04-14,Customer Support,16.2,1,0.09,4.6,2.0,90,Yes
+1532,24.0,Belgium,Western Europe,Master,Desktop,Free,2025-03-23,Coding,14.1,2,0.0,5.7,3.0,-30,No
+1533,29.0,Germany,Western Europe,Bachelor,Mobile,Free,2025-04-15,Personal Assistant,10.1,1,0.0,9.5,3.0,-15,No
+1534,39.0,Netherlands,Western Europe,Master,Mobile,Free,2025-02-10,Coding,53.1,2,0.0,5.5,,2,No
+1535,17.0,Netherlands,Western Europe,Master,Desktop,Premium Plus,2025-05-16,Writing,27.0,1,20.36,,5.0,57,No
+1536,41.0,Italy,Southern Europe,Master,Mobile,Free,2025-03-11,Writing,23.3,2,0.18,4.6,,23,Yes
+1537,28.0,Netherlands,Western Europe,Master,Tablet,Free,2025-01-28,Research,19.8,4,0.0,8.4,3.0,5,No
+1538,47.0,Netherlands,Western Europe,High School,Desktop,Premium,2025-07-05,Research,23.1,2,10.2,1.0,2.0,55,No
+1539,16.0,Netherlands,Western Europe,Master,Mobile,Free,2024-07-19,Personal Assistant,54.9,7,0.0,5.5,3.0,63,Yes
+1540,25.0,Netherlands,Western Europe,Master,Desktop,Premium Plus,2024-10-09,Research,43.6,4,19.76,6.2,3.0,29,No
+1541,16.0,Sweden,Northern Europe,Master,Tablet,Premium,2024-12-15,Coding,16.4,3,9.74,5.1,4.0,1,No
+1542,25.0,Belgium,Western Europe,High School,Mobile,Free,2025-02-19,Coding,45.5,9,0.02,7.9,3.0,39,No
+1543,,Ireland,Western Europe,Bachelor,Desktop,Premium,2024-10-22,Coding,35.3,5,9.93,8.5,3.0,22,No
+1544,32.0,Netherlands,Western Europe,Bachelor,Tablet,Premium,2024-09-30,Translation,14.2,3,9.95,3.8,3.0,22,No
+1545,31.0,Spain,Southern Europe,High School,Mobile,Premium,2024-04-12,Writing,47.9,5,9.94,10.0,2.0,12,No
+1546,32.0,Belgium,Western Europe,Bachelor,Desktop,Premium,2025-01-30,Translation,14.1,0,10.0,3.7,3.0,62,No
+1547,36.0,Belgium,Western Europe,Bachelor,Mobile,Premium,2024-03-17,Coding,13.8,2,10.15,8.6,3.0,39,No
+1548,23.0,Poland,Eastern Europe,Master,Desktop,Premium,2024-10-21,Writing,11.6,0,10.03,6.6,4.0,66,No
+1549,42.0,Ireland,Western Europe,Bachelor,Desktop,Free,2024-09-10,Coding,1.0,0,0.0,5.4,4.0,77,Yes
+1550,41.0,Poland,Eastern Europe,Master,Desktop,Premium,2025-04-26,Writing,46.7,4,10.11,5.6,3.0,46,No
+1551,38.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2024-10-22,Personal Assistant,35.0,4,20.24,6.2,,12,No
+1552,40.0,Germany,Western Europe,Master,Desktop,Premium,2024-01-04,Research,12.8,3,9.82,6.7,2.0,66,No
+1553,37.0,Spain,Southern Europe,Bachelor,mobile,Premium,2024-11-09,Coding,25.7,5,9.97,4.6,4.0,46,No
+1554,56.0,Germany,Western Europe,Bachelor,Mobile,Free,2024-05-13,Customer Support,25.9,4,0.35,5.9,3.0,100,No
+1555,33.0,Italy,Southern Europe,Master,Mobile,Premium,2024-08-23,Customer Support,13.7,2,9.66,4.9,4.0,41,No
+1556,31.0,France,Western Europe,PhD,Desktop,Premium Plus,2024-07-02,Translation,20.3,3,20.53,4.7,5.0,54,No
+1557,26.0,France,Western Europe,Bachelor,Mobile,Free,2024-04-13,Translation,58.6,3,0.0,4.8,3.0,40,Yes
+1558,23.0,Sweden,Northern Europe,Bachelor,Mobile,Free,2025-08-09,Customer Support,9.2,1,0.0,4.2,2.0,27,Yes
+1559,20.0,Italy,Southern Europe,Master,Desktop,Free,2024-06-06,Personal Assistant,5.0,1,0.0,5.5,3.0,21,No
+1560,24.0,Netherlands,Western Europe,Master,Mobile,Free,2024-11-10,Personal Assistant,12.6,6,0.66,7.1,4.0,40,No
+1561,33.0,Netherlands,Western Europe,High School,Mobile,Premium,2025-05-28,Research,14.2,6,9.84,6.5,3.0,48,No
+1562,38.0,France,Western Europe,Bachelor,Mobile,Free,2024-08-13,Customer Support,21.6,4,0.0,9.9,3.0,70,No
+1563,35.0,France,Western Europe,Bachelor,Mobile,Free,2025-08-04,Writing,7.9,1,0.0,2.3,4.0,41,No
+1564,26.0,Germany,Western Europe,PhD,Desktop,Premium,2024-09-07,Personal Assistant,22.7,1,10.02,7.7,,14,No
+1565,44.0,Belgium,Western Europe,Bachelor,Mobile,Premium,2025-08-10,Translation,74.5,6,9.89,6.3,3.0,19,No
+1566,42.0,Italy,Southern Europe,Bachelor,Mobile,Premium,2024-10-07,Writing,251.8,26,9.95,7.8,2.0,-16,No
+1567,32.0,Sweden,Northern Europe,PhD,Tablet,Premium,2024-01-09,Personal Assistant,14.4,6,8.93,8.2,4.0,88,No
+1568,27.0,France,Western Europe,Bachelor,Desktop,Premium,2025-06-22,Translation,11.0,1,10.01,6.0,3.0,11,No
+1569,40.0,Belgium,Western Europe,Bachelor,Desktop,Premium,2025-06-19,Coding,42.0,5,10.0,6.6,4.0,64,Yes
+1570,36.0,Germany,Western Europe,Bachelor,Desktop,Premium,2025-08-19,Research,31.5,3,10.3,5.0,4.0,40,No
+1571,18.0,France,Western Europe,High School,Tablet,Free,2024-03-17,Translation,13.2,4,0.39,7.4,2.0,41,No
+1572,33.0,Germany,Western Europe,High School,Mobile,Premium,2025-06-07,Translation,15.7,3,9.93,2.9,4.0,26,Yes
+1573,37.0,France,Western Europe,Bachelor,Desktop,Free,2024-07-30,Writing,22.1,0,0.24,7.7,4.0,2,No
+1574,24.0,Spain,Southern Europe,Master,Desktop,Free,2025-06-05,Coding,20.4,3,0.0,6.3,4.0,-4,Yes
+1575,36.0,Netherlands,Western Europe,Master,Mobile,Free,2025-08-20,Customer Support,15.8,2,0.23,5.4,3.0,90,Yes
+1576,18.0,Netherlands,Western Europe,High School,Mobile,Premium Plus,2024-05-03,Coding,42.6,8,19.82,5.9,2.0,34,No
+1577,49.0,Netherlands,Western Europe,Master,Mobile,Premium,2024-08-18,Coding,12.2,6,9.63,6.0,5.0,69,No
+1578,48.0,Poland,Eastern Europe,Bachelor,Desktop,Free,2024-06-15,Writing,3.0,3,0.0,8.6,4.0,78,No
+1579,31.0,Spain,Southern Europe,PhD,Desktop,Premium,2024-07-07,Writing,40.0,4,10.41,10.0,3.0,16,No
+1580,38.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-01-04,Research,30.8,3,0.05,,3.0,45,No
+1581,16.0,Poland,Eastern Europe,Master,Mobile,Premium,2024-09-12,Customer Support,26.9,4,10.44,5.3,4.0,32,No
+1582,21.0,Belgium,Western Europe,Bachelor,Mobile,Premium,2025-02-10,Customer Support,61.0,1,9.77,7.4,4.0,-11,No
+1583,31.0,France,Western Europe,Master,Mobile,Premium,2025-02-22,Personal Assistant,33.3,4,10.3,7.5,3.0,24,No
+1584,22.0,Portugal,Southern Europe,Bachelor,Mobile,Premium,2024-05-05,Coding,21.3,2,9.79,4.6,4.0,51,No
+1585,42.0,Netherlands,Western Europe,Master,Tablet,Free,2024-01-28,Coding,14.3,2,0.07,4.0,2.0,13,Yes
+1586,56.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2025-04-07,Writing,16.7,1,0.07,6.2,2.0,19,No
+1587,21.0,France,Western Europe,PhD,Tablet,Premium,2024-04-22,Writing,43.7,3,10.19,8.4,2.0,24,No
+1588,25.0,Netherlands,Western Europe,Bachelor,Desktop,Premium,2024-05-03,Coding,12.0,1,10.07,3.4,3.0,100,No
+1589,37.0,Spain,Southern Europe,Master,Tablet,Free,2025-01-07,Writing,24.0,3,0.0,5.0,5.0,-34,No
+1590,52.0,Netherlands,Western Europe,Master,Mobile,Free,2024-06-12,Writing,11.6,1,0.26,,5.0,48,No
+1591,21.0,Netherlands,Western Europe,PhD,Mobile,Free,2024-04-27,Writing,13.0,2,0.52,7.0,4.0,21,No
+1592,37.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-07-09,Customer Support,7.2,2,0.0,8.8,3.0,8,Yes
+1593,54.0,Belgium,Western Europe,Bachelor,Mobile,Free,2024-11-20,Customer Support,40.7,5,0.0,3.8,3.0,20,No
+1594,16.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2025-06-08,Translation,-12.0,2,0.15,10.0,4.0,53,Yes
+1595,,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2025-09-04,Personal Assistant,44.3,5,19.89,3.5,2.0,55,No
+1596,29.0,Sweden,Northern Europe,Master,Tablet,Free,2025-03-29,Research,46.5,10,0.0,2.6,3.0,37,Yes
+1597,28.0,Germany,Western Europe,PhD,Mobile,Free,2025-07-11,Writing,9.1,2,0.17,6.8,5.0,68,Yes
+1598,43.0,Germany,Western Europe,PhD,Tablet,Free,2024-11-25,Research,24.3,3,0.0,4.9,2.0,74,No
+1599,37.0,Netherlands,Western Europe,Bachelor,Desktop,Free,2024-09-10,Writing,28.5,3,0.0,6.2,3.0,59,No
+1600,16.0,Germany,Western Europe,Master,Desktop,Premium,2025-05-23,Coding,31.7,3,9.96,6.2,,11,No
+1601,40.0,Germany,Western Europe,Master,Desktop,Free,2024-07-06,Coding,19.8,7,0.44,5.9,4.0,47,No
+1602,28.0,Spain,Southern Europe,PhD,Mobile,Premium,2025-05-19,Coding,18.7,2,10.0,5.4,3.0,47,No
+1603,48.0,Netherlands,Western Europe,Bachelor,Desktop,Premium,2025-09-10,Coding,46.0,4,9.62,7.1,4.0,1,No
+1604,27.0,Poland,Eastern Europe,Bachelor,Mobile,Free,2024-08-29,Customer Support,17.1,3,0.0,5.7,4.0,-25,No
+1605,27.0,Poland,Eastern Europe,Master,Tablet,Premium,2025-01-27,Personal Assistant,40.6,6,10.03,8.3,5.0,-41,No
+1606,40.0,Netherlands,Western Europe,Bachelor,Mobile,Premium Plus,2025-04-29,Personal Assistant,35.0,5,19.65,6.0,,32,No
+1607,42.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2025-04-30,Customer Support,34.0,1,0.0,4.6,3.0,40,No
+1608,,Netherlands,Western Europe,PhD,Desktop,Free,2024-05-07,Research,13.8,3,0.19,3.9,5.0,-11,Yes
+1609,16.0,Spain,Southern Europe,PhD,desktop,Premium Plus,2025-08-19,Writing,41.7,8,20.2,6.6,3.0,67,No
+1610,40.0,Netherlands,Western Europe,PhD,Mobile,Premium Plus,2024-11-08,Customer Support,26.6,2,19.88,,2.0,35,Yes
+1611,23.0,Sweden,Northern Europe,Master,Desktop,Free,2024-01-26,Research,23.9,3,0.09,3.9,4.0,77,No
+1612,37.0,Italy,Southern Europe,Bachelor,Mobile,Premium,2024-03-14,Coding,19.6,2,10.05,7.2,,43,No
+1613,18.0,Sweden,Northern Europe,Bachelor,Desktop,Free,2025-03-27,Coding,14.1,5,0.18,3.1,4.0,-7,No
+1614,39.0,France,Western Europe,Bachelor,Mobile,Premium,2024-09-21,Translation,22.3,1,10.17,8.8,4.0,46,No
+1615,25.0,Ireland,Western Europe,Master,Mobile,Free,2024-03-07,Customer Support,14.0,4,0.0,6.6,2.0,53,Yes
+1616,20.0,Netherlands,Western Europe,Bachelor,Mobile,Free,2024-11-18,Research,29.3,4,0.0,6.2,3.0,11,No
+1617,42.0,Belgium,Western Europe,Master,Mobile,Premium,2025-01-06,Customer Support,21.0,4,10.15,4.4,5.0,-20,No
+1618,37.0,Germany,Western Europe,Bachelor,Mobile,Premium Plus,2024-02-19,Coding,33.4,4,19.87,7.7,2.0,34,No
+1619,27.0,Portugal,Southern Europe,Master,Mobile,Premium,2024-08-05,Research,49.6,7,10.0,6.3,3.0,-5,No
+1620,50.0,France,Western Europe,Bachelor,Mobile,Free,2024-10-13,Coding,30.5,2,0.23,5.1,3.0,69,Yes
+1315,43.0,France,Western Europe,Master,Tablet,Premium,2025-03-13,Research,16.7,1,9.99,8.6,4.0,45,No
+1163,57.0,Netherlands,Western Europe,High School,MOBILE,Free,2024-12-10,Translation,5.7,2,0.0,8.9,4.0,-31,No
+1202,49.0,Belgium,Western Europe,Bachelor,Desktop,Free,2024-09-01,Customer Support,22.8,2,0.0,2.9,2.0,25,Yes
